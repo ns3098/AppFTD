@@ -1,8 +1,6 @@
 
 import pandas as pd
 from PyQt5 import QtWidgets
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPixmap
 from PyQt5 import QtCore, QtGui, QtWidgets
 import pandas as pd
 import  time
@@ -23,6 +21,7 @@ from app.ui.controlframes import ControlOpacity
 from app.ui.abstract import WelcomeNotification
 from app.ui.Thread import Thread_for_Validate, Thread_for_Download
 from app.ui.infodialog import InfoDialog
+from app.ui.CustomCursor import ManagerCursor
 
 from app.utils.widgets.floatingtext import PMXMessageOverlay
 
@@ -185,6 +184,14 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.setLayout(self.layout)
         self.set_values()
 
+        self._manager = ManagerCursor(self)
+        movie = QtGui.QMovie(":/icons/giphy.gif")
+        movie.setScaledSize(QtCore.QSize(100,90))
+        #self._manager.setScaledContents(True)
+        self._manager.setMovie(movie)
+        self._manager.setWidget(self)
+
+
     def set_values(self):
         Columns = ['ID','Connection type','Axial load','Shear load','Bolt diameter','Bolt grade','Plate thickness']
         self.df = pd.DataFrame(columns=Columns,index=range(1000))
@@ -338,7 +345,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         Worker.No_error.connect(self.no_error)
         Worker.is_exception.connect(self.show_error)
         Worker.data_frame_empty.connect(self.data_empty)
-
+        self._manager.start()
         thread.start()
 
     def show_error(self,msg):
@@ -349,25 +356,25 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.destroy_download_thread()
 
     def no_unique(self):
-
+        self.destroy_thread()
         welcome_title = 'Alert'
         message = "All the values in the column ID is not unique. Please Check all the values once again.\n\n"
         WelcomeNotification(self).notify(WelcomeNotification.ERROR, message,welcome_title, button_text='OK')
-        self.destroy_thread()
+
 
     def no_numeric(self):
-
+        self.destroy_thread()
         welcome_title = 'Alert'
         message = 'All the values in the table is not Numeric. Please Check all the values once again.\n\n'
         WelcomeNotification(self).notify(WelcomeNotification.ERROR, message,welcome_title, button_text='OK')
-        self.destroy_thread()
+
 
     def no_error(self):
-
+        self.destroy_thread()
         welcome_title = 'Congratulations'
         message = 'All the data validated successfully. No error has been found. You can now download the data\n\n'
         WelcomeNotification(self).notify(WelcomeNotification.OK, message,welcome_title, button_text='OK')
-        self.destroy_thread()
+
 
     def destroy_thread(self):
 
@@ -377,6 +384,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
                 thread.wait()
 
         self.enable_btn()
+        self._manager.stop()
 
 
     def Download_data(self):
@@ -401,7 +409,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
             Worker.download_complete.connect(self.download_completed)
             Worker.data_frame_empty.connect(self.data_empty)
             Worker.is_exception.connect(self.show_error)
-
+            self._manager.start()
             thread.start()
 
     def show_counter(self,count, current, length):
@@ -422,6 +430,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
                 thread.quit()
                 thread.wait()
         self.enable_btn()
+        self._manager.stop()
 
 class TensionMember(FinPlate):
     """

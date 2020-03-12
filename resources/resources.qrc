@@ -24,6 +24,9 @@
         <file>icons/notification_question.png</file>
     </qresource>
     <qresource>
+        <file>icons/giphy.gif</file>
+    </qresource>
+    <qresource>
         <file>icons/max_btn.png</file>
         <file>icons/max_btn_hover.png</file>
         <file>icons/full_screen_exit.png</file>

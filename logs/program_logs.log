@@ -13488,3 +13488,213 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 03:25:54,898     INFO [257:              __init__.py] Running program
 2020-03-13 03:25:54,899     INFO [258:              __init__.py] INI file: settings.ini
 2020-03-13 03:25:57,481    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:43:42,510     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:47:07,407     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:48:35,256     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:48:37,541    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:48:37,541     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:48:37,581     INFO [257:              __init__.py] Running program
+2020-03-13 03:48:37,585     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:48:38,913    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 241 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-13 03:48:38,913    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-13 03:48:38,917    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 241 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-13 03:48:38,921    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-13 03:48:56,726     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:48:58,913    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:48:58,913     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:48:58,937     INFO [257:              __init__.py] Running program
+2020-03-13 03:48:58,941     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:49:00,395    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 241 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-13 03:49:00,395    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-13 03:49:00,395    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 241 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-13 03:49:00,395    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-13 03:49:34,305     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:49:36,664    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:49:36,666     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:49:36,709     INFO [257:              __init__.py] Running program
+2020-03-13 03:49:36,710     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:49:39,095    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:50:21,144     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:50:22,508    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:50:22,509     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:50:22,533     INFO [257:              __init__.py] Running program
+2020-03-13 03:50:22,534     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:50:24,589    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:50:57,503    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:52:20,731     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:52:22,071    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:52:22,071     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:52:22,092     INFO [257:              __init__.py] Running program
+2020-03-13 03:52:22,093     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:52:24,187    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:52:40,542    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:53:09,129     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:53:10,415    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:53:10,415     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:53:10,443     INFO [257:              __init__.py] Running program
+2020-03-13 03:53:10,443     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:53:12,472    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:53:52,409    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:54:54,288     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:54:56,430    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:54:56,431     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:54:56,449     INFO [257:              __init__.py] Running program
+2020-03-13 03:54:56,449     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:54:58,452    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:55:23,888    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:56:01,824     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:56:03,454    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:56:03,455     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:56:03,474     INFO [257:              __init__.py] Running program
+2020-03-13 03:56:03,474     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:56:05,477    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:57:03,243     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:57:04,994    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:57:04,995     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:57:05,018     INFO [257:              __init__.py] Running program
+2020-03-13 03:57:05,018     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:57:07,105    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:57:41,636    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:58:20,177     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:58:21,879    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:58:21,880     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:58:21,900     INFO [257:              __init__.py] Running program
+2020-03-13 03:58:21,900     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:58:23,893    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:58:44,191    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 03:59:16,874     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 03:59:18,601    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 03:59:18,603     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 03:59:18,621     INFO [257:              __init__.py] Running program
+2020-03-13 03:59:18,622     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 03:59:20,679    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 03:59:48,758    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:01:38,472     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:01:40,174    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:01:40,175     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:01:40,198     INFO [257:              __init__.py] Running program
+2020-03-13 04:01:40,199     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:01:42,211    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:02:11,913    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:02:39,613     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:02:41,367    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:02:41,368     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:02:41,388     INFO [257:              __init__.py] Running program
+2020-03-13 04:02:41,389     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:02:43,379    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:03:10,438    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:04:13,916     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:04:16,029    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:04:16,030     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:04:16,058     INFO [257:              __init__.py] Running program
+2020-03-13 04:04:16,059     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:04:18,108    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:04:46,401    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:05:06,185     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:05:08,042    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:05:08,043     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:05:08,064     INFO [257:              __init__.py] Running program
+2020-03-13 04:05:08,066     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:05:10,109    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:05:42,237    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:06:05,770     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:06:07,427    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:06:07,428     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:06:07,451     INFO [257:              __init__.py] Running program
+2020-03-13 04:06:07,451     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:06:09,465    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:06:40,481    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:07:21,474     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:07:23,339    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:07:23,340     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:07:23,362     INFO [257:              __init__.py] Running program
+2020-03-13 04:07:23,363     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:07:25,357    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:07:49,534    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:07:59,723     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:08:01,421    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:08:01,424     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:08:01,443     INFO [257:              __init__.py] Running program
+2020-03-13 04:08:01,444     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:08:03,459    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:08:49,171    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:08:58,655     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:09:00,583    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:09:00,584     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:09:00,609     INFO [257:              __init__.py] Running program
+2020-03-13 04:09:00,610     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:09:02,719    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:09:38,422     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:09:40,163    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:09:40,163     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:09:40,186     INFO [257:              __init__.py] Running program
+2020-03-13 04:09:40,186     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:09:42,235    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:10:02,430    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:10:21,580     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:10:23,271    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:10:23,272     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:10:23,295     INFO [257:              __init__.py] Running program
+2020-03-13 04:10:23,296     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:10:25,285    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:11:02,372    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:11:25,462     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:11:27,192    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:11:27,192     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:11:27,215     INFO [257:              __init__.py] Running program
+2020-03-13 04:11:27,216     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:11:29,231    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:11:52,440    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:12:10,545     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:12:11,861    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:12:11,864     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:12:11,884     INFO [257:              __init__.py] Running program
+2020-03-13 04:12:11,886     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:12:13,889    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:12:32,896    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:12:43,950     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:12:45,652    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:12:45,653     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:12:45,675     INFO [257:              __init__.py] Running program
+2020-03-13 04:12:45,676     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:12:47,682    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:13:18,256    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 04:13:42,061     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 04:13:43,718    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 04:13:43,719     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 04:13:43,740     INFO [257:              __init__.py] Running program
+2020-03-13 04:13:43,741     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 04:13:45,733    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 04:14:15,871    DEBUG [ 74:           globalframe.py] Running in background...

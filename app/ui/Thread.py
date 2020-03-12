@@ -18,11 +18,11 @@ class Thread_for_Validate(QObject):
 
     def Check_unique_value(self):
         try:
-            self.df['ID'].replace('', np.nan, inplace=True)
-            self.df.dropna(subset=['ID'], inplace=True)
+            self.df['year'].replace('', np.nan, inplace=True)
+            self.df.dropna(subset=['year'], inplace=True)
 
             if not self.df.empty:
-                boolean = self.df['ID'].duplicated().any()
+                boolean = self.df['year'].duplicated().any()
 
                 if(boolean):
 

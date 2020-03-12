@@ -9,7 +9,7 @@ class OpacityAnimation(object):
     """
 
     FULL_THRESHOLD = 0.9
-    DEFAULT_FADE_SPEED = 0.10
+    DEFAULT_FADE_SPEED = 0.69
 
     fade_out_finished = pyqtSignal()
     fade_in_finished = pyqtSignal()
