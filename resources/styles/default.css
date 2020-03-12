@@ -108,7 +108,31 @@
 #PrayerTimeFrame[current="3"] {
     background-color: rgba(79, 228, 108, 0.1);
 }
+QMenu{
+  background-color: black;
+  padding-top:5px;
+  padding-bottom: 6px;
+  padding-left:5px;
+  padding-right: 5px;
+}
+QMenu::item{
+           background-color: #32414d;
+           color:white;
+           font-family:Georgia;
+           padding-top:10px;
+           padding-bottom: 10px;
+           padding-left: 8px;
+           padding-right: 8px;
+           }
+QMenu::item:selected{
+           background-color: white;
+           color: black;
 
+           }
+QInputDialog{
+  background-color: #32414d;
+  color:white;
+}
 #PrayerTimeFrame:hover[current="3"] {
     background-color: rgba(79, 228, 108, 0.15);
 }

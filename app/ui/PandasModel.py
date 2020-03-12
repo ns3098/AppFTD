@@ -83,5 +83,11 @@ class PandasModel(QtCore.QAbstractTableModel):
         self.layoutAboutToBeChanged.emit()
         self._df = pd.DataFrame(columns=Columns,index=range(1000))
         self._df = self._df.fillna('')
-        #self._df.reset_index(inplace=True, drop=True)
+        self._df.reset_index(inplace=True, drop=True)
+        self.layoutChanged.emit()
+
+    def clearRows(self, indexes, parent=QtCore.QModelIndex()):
+        self.layoutAboutToBeChanged.emit()
+        self._df.iloc[indexes] = ''
+        self._df.reset_index(inplace=True, drop=True)
         self.layoutChanged.emit()

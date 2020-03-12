@@ -245,8 +245,12 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.menu.addSeparator()
         self.menu.addAction('Delete Selected Rows', self.deleteRows)
         self.menu.addSeparator()
+        self.menu.addAction('Clear Selected Rows', self.deleteSelectedRows)
         self.menu.addAction('Clear Table', self.Clear_Table)
         self.menu.exec_(self.pandasTv.verticalHeader().viewport().mapToGlobal(pos))
+
+    def deleteSelectedRows(self):
+        self.pandasTv.model().clearRows(self.selectedRows())
 
     def selectedRows(self):
         selectedIndexes = self.pandasTv.selectedIndexes()
@@ -264,13 +268,13 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.pandasTv.model().insertRows(selectedObjectIndices[-1]+1, 1)
 
     def insertObjectsBeforeSelectedObjects(self):
-        num, ok = QInputDialog.getInt(self, "Insert", "Number of objects to insert.", 1, 1)
+        num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
         if ok:
             selectedObjectIndices = self.selectedRows()
             self.pandasTv.model().insertRows(selectedObjectIndices[0], num)
 
     def insertObjectsAfterSelectedObjects(self):
-        num, ok = QInputDialog.getInt(self, "Insert", "Number of objects to insert.", 1, 1)
+        num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
         if ok:
             selectedObjectIndices = self.selectedRows()
             self.pandasTv.model().insertRows(selectedObjectIndices[-1]+1, num)
