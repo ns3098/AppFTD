@@ -1,0 +1,8 @@
+--------------------------------------------------------------------------------
+2020-03-12, 19:53:58
+--------------------------------------------------------------------------------
+<class 'AttributeError'>: 
+'QPushButton' object has no attribute 'connect'
+--------------------------------------------------------------------------------
+  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\mainframe.py", line 289, in Clear_Table
+    x.close_button_1.connect(self.set_flag_to_reset)
