@@ -26,8 +26,8 @@ class WelcomeWizardPage(FadeAnimation, QtWidgets.QWizardPage):
         self.title_label.setStyleSheet("QLabel {color: #6F8DA6; font: 50px 'capsuula';}")
         self.title_label.setAlignment(Qt.AlignCenter | Qt.AlignVCenter)
 
-        self.under_label = QtWidgets.QLabel("This wizard helps you configure the program for the first time. \n"
-                                            "If you don't know exactly, leave configuration by default.", self)
+        self.under_label = QtWidgets.QLabel("This wizard helps you to get familiar with the program for the first time. \n"
+                                            "Read all the instructions and features carefully.", self)
         self.under_label.setStyleSheet("color: #6F8DA6; font: 30px 'capsuula';")
         self.under_label.setAlignment(Qt.AlignCenter | Qt.AlignVCenter)
 

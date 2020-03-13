@@ -15327,3 +15327,9 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 18:59:12,004     INFO [253:              __init__.py] Running program
 2020-03-13 18:59:12,005     INFO [254:              __init__.py] INI file: settings.ini
 2020-03-13 19:00:07,377    DEBUG [114:       firsttimewizard.py] Wizard cancelled by user.
+2020-03-13 19:02:30,312     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:02:31,374    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:02:31,375     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:02:31,379     INFO [253:              __init__.py] Running program
+2020-03-13 19:02:31,379     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:02:45,743    DEBUG [114:       firsttimewizard.py] Wizard cancelled by user.
