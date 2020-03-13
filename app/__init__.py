@@ -66,16 +66,13 @@ class AppFTD(QtWidgets.QApplication):
         self.setStyleSheet(self.stylesheet)
 
         # Use ico file so it can handle multiple sizes
-        self.setWindowIcon(QIcon("C:/Users/nitin/Desktop/fsf_2020_screening_task/resources/icons/python-16.png"))
+        self.setWindowIcon(QIcon(":/icons/python-16.png"))
 
-        #self.setApplicationDisplayName(" ")
-        #self.setApplicationName("Home")
+        self.setApplicationDisplayName("AppFTD")
+        self.setApplicationName("AppFTD")
 
-        #self.setOrganizationName('QuantumPrayerTimes')
-        #self.setOrganizationDomain('quantumprayertimes.github.io')
-
-        #self.setEffectEnabled(Qt.UI_AnimateCombo, False)
-        #self.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
+        self.setEffectEnabled(Qt.UI_AnimateCombo, False)
+        self.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
 
         Registry().register_signal("change_style", self.modify_style)
 
@@ -104,7 +101,7 @@ class AppFTD(QtWidgets.QApplication):
 
     def run(self):
         """
-        Run the QuantumPT application.x
+        Run the AppFTD application.x
         """
         activate_first_notification = False
 
@@ -161,7 +158,7 @@ class AppFTD(QtWidgets.QApplication):
 
     def is_already_running(self):
         """
-        Look to see if QuantumPT is already running and ask if a 2nd instance is to be started.
+        Look to see if AppFTD is already running and ask if a 2nd instance is to be started.
         """
         self.shared_memory = QSharedMemory('AppFTD')
         if self.shared_memory.attach():
@@ -249,6 +246,8 @@ def main():
     """
     # Add path to qt_plugins instead of having mediaservice, platforms and sqldrivers in main
     # directory, currently : plugins/mediaservice - plugins/platforms - plugins/sqldrivers
+
+    # This is required for adding furthur functionality.
     QtWidgets.QApplication.addLibraryPath(os.path.join(ResourcesLocation().root_dir, 'plugins'))
 
     # Now create and actually run the application.

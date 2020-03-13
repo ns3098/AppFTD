@@ -17,7 +17,7 @@ from app.core.common.settings import Settings
 
 class Wizard(QtWidgets.QWizard):
     """
-    Generic QuantumPT wizard to provide generic functionality and a unified look
+    Generic AppFTD wizard to provide generic functionality and a unified look
     and feel.
     """
 

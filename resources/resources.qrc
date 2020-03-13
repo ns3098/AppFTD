@@ -7,9 +7,9 @@
         <file>fonts/capsuula.ttf</file>
         <file>fonts/ubuntu.ttf</file>
     </qresource>
-		<file>icons/python-16.png</file>
+		    <file>icons/python-16.png</file>
     <qresource>
-		<file>images/Pyqt.jpg</file>
+		    <file>images/Pyqt.jpg</file>
     </qresource>
     <qresource>
         <file>icons/wizard_map.png</file>

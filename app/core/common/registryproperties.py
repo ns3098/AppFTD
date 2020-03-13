@@ -11,7 +11,7 @@ class RegistryProperties(object):
     @property
     def application(self):
         """
-        Adds the praypertimes to the class dynamically.
+        Adds the app to the class dynamically.
         Windows needs to access the application in a dynamic manner.
         """
         if is_win():
