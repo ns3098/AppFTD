@@ -15289,3 +15289,10 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 18:43:59,291     INFO [253:              __init__.py] Running program
 2020-03-13 18:43:59,291     INFO [254:              __init__.py] INI file: settings.ini
 2020-03-13 18:44:01,516    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 18:50:12,941     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:50:19,314    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:50:19,318     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:50:19,335     INFO [253:              __init__.py] Running program
+2020-03-13 18:50:19,335     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:50:21,845    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 18:50:31,063    DEBUG [ 74:           globalframe.py] Running in background...

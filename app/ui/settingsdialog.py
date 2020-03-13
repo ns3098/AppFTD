@@ -217,7 +217,7 @@ class SettingsDialog(Dialog):
         self.status_layout = QtWidgets.QHBoxLayout()
         self.status_layout.setContentsMargins(9, 9, 9, 9)
 
-        contact_label = QtWidgets.QLabel(translate('Application', "For any problem, please contact me."), self)
+        contact_label = QtWidgets.QLabel(translate('Application', "For any problem, please raise issue on github."), self)
         font = QFont('ubuntu', 10)
         contact_label.setFont(font)
 

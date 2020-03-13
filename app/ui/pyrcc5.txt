@@ -1,1 +1,0 @@
-pyrcc5 resources.qrc -o C:/Users/nitin/Desktop/fsf_2020_screening_task/app/resources.py
