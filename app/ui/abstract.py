@@ -633,8 +633,7 @@ class CheckableButton(QtWidgets.QPushButton):
 class NotificationFrame(RegistryProperties, OpacityAnimation, QtWidgets.QDialog):
     """
     General notification frame that appears on top of current widget and prevent
-    the use of the general application except athan frame that appears to give
-    the ability to stop athan.
+    the use of the general application.
 
     Need to call this NotificationFrame with a parent to stop interaction with all
     widgets inside this parent, grand parent, childs etc ...
@@ -665,7 +664,7 @@ class NotificationFrame(RegistryProperties, OpacityAnimation, QtWidgets.QDialog)
         self.setWindowFlags(self.windowFlags() | Qt.FramelessWindowHint)
         self.setWindowFlags(self.windowFlags() & ~Qt.WindowStaysOnTopHint)
 
-        # Make the dialog modal to ONLY its parent (to have athan notification still available)
+        # Make the dialog modal to ONLY its parent
         # Need to call the Notification frame with self : e.g NotificationFrame(self)
         self.setWindowModality(Qt.WindowModal)
         self.setModal(True)

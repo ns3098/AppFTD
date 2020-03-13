@@ -636,13 +636,17 @@ QHeaderView::section:checked
 }
 
 QProgressBar{
-    border: 2px solid grey;
+    border: 0.8px solid green;
     border-radius: 5px;
-    text-align: center
+    text-align: center;
+    background: rgba(22, 31, 38, 1);
+    color:white;
+    font-family:consolas;
+    font-size:18px;
 }
 
 QProgressBar::chunk {
-    background-color: lightblue;
+    background-color: FireBrick;
     width: 10px;
     margin: 1px;
 }

@@ -1,22 +1,8 @@
 --------------------------------------------------------------------------------
-2020-03-13, 03:49:00
+2020-03-13, 16:46:23
 --------------------------------------------------------------------------------
-<class 'NameError'>: 
-name 'QtGui' is not defined
+<class 'AttributeError'>: 
+'NoneType' object has no attribute 'frameGeometry'
 --------------------------------------------------------------------------------
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\main.py", line 11, in <module>
-    main()
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py", line 269, in main
-    sys.exit(app.run())
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py", line 130, in run
-    self.global_frame = GlobalFrame()
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\globalframe.py", line 27, in __init__
-    self.frame = PrincipalFrame(self)
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\principalframe.py", line 30, in __init__
-    self.finplate_frame = FinPlate(self)
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\mainframe.py", line 141, in __init__
-    self.setup_ui()
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\mainframe.py", line 191, in setup_ui
-    self._manager.setMovie(movie)
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\CustomCursor.py", line 12, in setMovie
-    if isinstance(self._movie, QtGui.QMovie):
+  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py", line 102, in showEvent
+    self.move(self.global_frame.frameGeometry().topLeft() +

@@ -64,8 +64,8 @@ class Thread_for_Download(QObject):
 
     def start_download(self):
         try:
-            self.df['ID'].replace('', np.nan, inplace=True)
-            self.df.dropna(subset=['ID'], inplace=True)
+            self.df['year'].replace('', np.nan, inplace=True)
+            self.df.dropna(subset=['year'], inplace=True)
             if not self.df.empty:
                 values = self.df.to_dict(orient='records')
                 length  = len(values)

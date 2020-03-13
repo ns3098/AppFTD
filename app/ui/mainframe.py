@@ -127,9 +127,11 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.progress_bar = MyProgressBar()
         #self.progress_bar.setObjectName("Progress_Bar")
         self.progress_bar.setRange(0,100)
-        #self.progress_bar.hide()
-        self.progress_bar.setText('hi there')
-        self.progress_bar.setValue(50)
+        self.progress_bar.setText('')
+        self.progress_bar.setMinimumHeight(30)
+        self.progress_bar.setValue(0)
+
+        self.progress_bar.hide()
 
         self.count = 0 # to increase thread count
         self.pandasTv = QTableView()
