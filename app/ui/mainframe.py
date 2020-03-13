@@ -108,6 +108,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.opacity_tb = RoundedToolButton(obj_name='Opacity', parent=self)
         self.opacity_tb.clicked.connect(self._control_opacity)
         self.control_op = ControlOpacity(self)
+        self.opacity_tb.setToolTip("Control Opacity")
         self.control_op.hide()
 
 
@@ -117,12 +118,15 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
         self.file_upload_tb = RoundedToolButton(obj_name='File_upload', parent=self)
         self.file_upload_tb.clicked.connect(self.loadFile)
+        self.file_upload_tb.setToolTip("Load Input")
 
         self.validate_tb = RoundedToolButton(obj_name='Validate', parent=self)
         self.validate_tb.clicked.connect(self.Validate_Data)
+        self.validate_tb.setToolTip("Validate Data")
 
         self.download_tb = RoundedToolButton(obj_name = 'Download', parent = self)
         self.download_tb.clicked.connect(self.Download_data)
+        self.download_tb.setToolTip("Download Data")
 
         self.progress_bar = MyProgressBar()
         #self.progress_bar.setObjectName("Progress_Bar")

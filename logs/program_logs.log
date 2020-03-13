@@ -15192,3 +15192,22 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 18:00:04,711     INFO [258:              __init__.py] INI file: settings.ini
 2020-03-13 18:00:06,668    DEBUG [152:              __init__.py] Splashscreen closed
 2020-03-13 18:00:50,396    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 18:02:50,817     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:02:51,931    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:02:51,931     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:02:51,947     INFO [257:              __init__.py] Running program
+2020-03-13 18:02:51,948     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 18:02:53,930    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 18:04:23,834     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:04:25,093    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:04:25,093     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:04:25,110     INFO [257:              __init__.py] Running program
+2020-03-13 18:04:25,110     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 18:04:27,197    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 18:05:23,370     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:05:24,411    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:05:24,412     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:05:24,429     INFO [257:              __init__.py] Running program
+2020-03-13 18:05:24,429     INFO [258:              __init__.py] INI file: settings.ini
+2020-03-13 18:05:26,567    DEBUG [152:              __init__.py] Splashscreen closed
+2020-03-13 18:05:54,047    DEBUG [ 74:           globalframe.py] Running in background...
