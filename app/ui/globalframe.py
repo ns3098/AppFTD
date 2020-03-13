@@ -23,7 +23,7 @@ class GlobalFrame(AbstractGlobalFrame):
 
         self.main_layout = QtWidgets.QVBoxLayout(self)
 
-        self.titlebar = GlobalTitlebar(self, title="Main", icon="C:/Users/nitin/Desktop/fsf_2020_screening_task/resources/icons/python-16.png")
+        self.titlebar = GlobalTitlebar(self, title="AppFTD", icon=":icons/app_icon.png")
         self.frame = PrincipalFrame(self)
 
         # Set margin between frame and borders

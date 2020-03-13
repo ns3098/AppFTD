@@ -65,9 +65,6 @@ class AppFTD(QtWidgets.QApplication):
         self.stylesheet = QTextStream(stylesheet).readAll()
         self.setStyleSheet(self.stylesheet)
 
-        # Use ico file so it can handle multiple sizes
-        self.setWindowIcon(QIcon(":/icons/python-16.png"))
-
         self.setApplicationDisplayName("AppFTD")
         self.setApplicationName("AppFTD")
 
