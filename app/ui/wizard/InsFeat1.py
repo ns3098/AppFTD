@@ -25,14 +25,13 @@ class Frame(QtWidgets.QFrame):
 
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setSpacing(10)
-        self.question_label = QtWidgets.QLabel(
-        '''        1. There are 4 tabs one for each module. On selecting a particular module an empty table with 1000 rows
+        self.question_label = QtWidgets.QLabel('''
+
+        1. There are 4 tabs one for each module. On selecting a particular module an empty table with 1000 rows
            (by default) along with corresponding header row will be displayed. User can fill data manually in each row.
 
-        2. User can also perform operations like adding row(s) and deleting row(s). To perform these operations
-           user just need to select any cell of a particular row(where user want to insert or delete) and then
-           right clicking on it will open a menu from where user can choose the option to delete the selected row
-           or add a new row above or below the selected row of the cell. Just like Google Spreadsheet.
+        2. User can also perform operations like adding row(s), deleting row(s), Clearing values of row(s),
+           Clearing Table. Right clicking on the header of selected row(s) will show above options.
 
         3. From all the rows of the data table, only those rows will be considered for data validation and downloading
            which contains some value in the column ID except these row(s) all other row(s) will be ignored. It is also

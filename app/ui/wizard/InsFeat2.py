@@ -24,18 +24,16 @@ class AsrSettingsFrame(QtWidgets.QFrame):
 
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setSpacing(10)
-        self.question_label = QtWidgets.QLabel(
-        '''        4. User can upload *.csv or *.xlsx data file. Uploaded file will populate the table with file contents and
+        self.question_label = QtWidgets.QLabel('''
+
+        4. User can upload *.csv or *.xlsx data file. Uploaded file will populate the table with file contents and
            overwrite the table. Always make sure to finish working with current file before uploading new data file.
 
-        5. User can also clear the data table at once.It will be used when user want to clear current content of the
-           table and start working with new data file or want to fill new data manually. Pressing Ctrl+N or by selecting
-           any cell and then right clicking on it to select the option to clear the table will do so.
-
-        6. To edit the value in any cell double click on the cell and start editing. To overwrite whole data of the
+        5. To edit the value in any cell double click on the cell and start editing. To overwrite whole data of the
             cell simply select the cell by single left click and type the new value. Just like Google Spreadsheet.
 
-        7. In case of any critical error while running, app will show an error message and then automatically closes.
+        6. In case of any critical error while running, app will show an error message and then automatically closes.
+           To get more details check log file.
 
         ''')
 

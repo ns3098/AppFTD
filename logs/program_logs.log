@@ -15296,3 +15296,34 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 18:50:19,335     INFO [254:              __init__.py] INI file: settings.ini
 2020-03-13 18:50:21,845    DEBUG [146:              __init__.py] Splashscreen closed
 2020-03-13 18:50:31,063    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 18:52:40,635     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:52:41,750    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:52:41,751     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:52:41,755     INFO [253:              __init__.py] Running program
+2020-03-13 18:52:41,755     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:54:09,570     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:54:10,659    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:54:10,660     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:54:10,663     INFO [253:              __init__.py] Running program
+2020-03-13 18:54:10,664     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:54:27,410     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:54:28,748    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:54:28,749     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:54:28,755     INFO [253:              __init__.py] Running program
+2020-03-13 18:54:28,756     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:54:50,494     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:54:51,599    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:54:51,599     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:54:51,603     INFO [253:              __init__.py] Running program
+2020-03-13 18:54:51,603     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:56:34,801     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:56:35,775    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:56:35,776     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:56:35,782     INFO [253:              __init__.py] Running program
+2020-03-13 18:56:35,783     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 18:59:10,911     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 18:59:11,997    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 18:59:11,998     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 18:59:12,004     INFO [253:              __init__.py] Running program
+2020-03-13 18:59:12,005     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:00:07,377    DEBUG [114:       firsttimewizard.py] Wizard cancelled by user.
