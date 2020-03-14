@@ -17,12 +17,15 @@ class Thread_for_Validate(QObject):
         self.df = df
 
     def Check_unique_value(self):
-        try:
-            self.df['year'].replace('', np.nan, inplace=True)
-            self.df.dropna(subset=['year'], inplace=True)
-
+        columns = list(self.df.columns)
+        lower_columns = list(map(lambda x:x.lower().strip(),columns))
+        if 'id' in lower_columns:
+            idx = lower_columns.index('id')
+            text = columns[idx]
+            self.df[text].replace('', np.nan, inplace=True)
+            self.df.dropna(subset=[text], inplace=True)
             if not self.df.empty:
-                boolean = self.df['year'].duplicated().any()
+                boolean = self.df[text].duplicated().any()
 
                 if(boolean):
 
@@ -32,14 +35,12 @@ class Thread_for_Validate(QObject):
                     self.Check_numeric_value()
             else:
                 self.data_frame_empty.emit()
-
-        except Exception as e:
-            self.is_exception.emit(str(e))
-
+        else:
+            self.is_exception.emit(str('No Column ID in the uploaded file.'))
 
     def Check_numeric_value(self):
 
-        self.df.replace('',0.0,inplace=True)
+        self.df.replace('','x',inplace=True)
         Boolean = dict(self.df.apply(lambda s: pd.to_numeric(s, errors='coerce').notnull().all()))
         False_count = list(Boolean.values()).count(False)
 
@@ -64,8 +65,8 @@ class Thread_for_Download(QObject):
 
     def start_download(self):
         try:
-            self.df['year'].replace('', np.nan, inplace=True)
-            self.df.dropna(subset=['year'], inplace=True)
+            self.df['ID'].replace('', np.nan, inplace=True)
+            self.df.dropna(subset=['ID'], inplace=True)
             if not self.df.empty:
                 values = self.df.to_dict(orient='records')
                 length  = len(values)

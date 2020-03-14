@@ -215,13 +215,34 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         print(dtf)
 
     def loadFile(self):
-        fileName, ok = QtWidgets.QFileDialog.getOpenFileName(self, "Open File", "", "CSV Files (*.csv)")
+        filter = "XLSX (*.xlsx);;CSV (*.csv)"
+        file_name = QtWidgets.QFileDialog()
+        fileName, ok = file_name.getOpenFileName(self, "Open File", "", filter)
         if ok:
-            df = pd.read_csv(fileName)
-            model = PandasModel(df)
-            self.pandasTv.setModel(model)
+            try:
+                df = pd.read_csv(fileName)
+            except:
+                df = pd.read_excel(fileName)
+            if self.validate_uploaded_file(df):
 
+                model = PandasModel(df)
+                self.pandasTv.setModel(model)
 
+            else:
+                welcome_title = 'Alert'
+                message = "Uploaded file does not belong to the selected module.\n\n"
+                WelcomeNotification(self).notify(WelcomeNotification.ERROR, message,welcome_title, button_text='OK')
+
+    def validate_uploaded_file(self,df):
+        Columns = list(df.columns)
+        original_columns = ['ID','Connection type','Axial load','Shear load','Bolt diameter','Bolt grade','Plate thickness']
+        for i in range(len(Columns)):
+            Columns[i] = Columns[i].lower()
+        for i in range(len(original_columns)):
+            original_columns[i] = original_columns[i].lower()
+        if set(Columns)!=set(original_columns):
+            return 0
+        return 1
 
     def _control_opacity(self):
         """
@@ -355,11 +376,10 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         thread.start()
 
     def show_error(self,msg):
-        error_box = CriticalExceptionDialog()
-        error_box.text_edit.setText('Data Table has no attribute : '+msg)
-        error_box.show()
         self.destroy_thread()
-        self.destroy_download_thread()
+        welcome_title = 'Alert'
+        message = "Cannot Validate data.There is no Column ID in the uploaded file.\n\n"
+        WelcomeNotification(self).notify(WelcomeNotification.ERROR, message,welcome_title, button_text='OK')
 
     def no_unique(self):
         self.destroy_thread()
@@ -371,7 +391,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
     def no_numeric(self):
         self.destroy_thread()
         welcome_title = 'Alert'
-        message = 'All the values in the table is not Numeric. Please Check all the values once again.\n\n'
+        message = 'Either all the values in the table is not Numeric or some of them are empty. \n Please Check all the values once again.\n\n'
         WelcomeNotification(self).notify(WelcomeNotification.ERROR, message,welcome_title, button_text='OK')
 
 

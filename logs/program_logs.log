@@ -15333,3 +15333,511 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-13 19:02:31,379     INFO [253:              __init__.py] Running program
 2020-03-13 19:02:31,379     INFO [254:              __init__.py] INI file: settings.ini
 2020-03-13 19:02:45,743    DEBUG [114:       firsttimewizard.py] Wizard cancelled by user.
+2020-03-13 19:07:22,036     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:07:23,926    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:07:23,931     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:07:23,949     INFO [253:              __init__.py] Running program
+2020-03-13 19:07:23,949     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:07:29,460    DEBUG [128:       firsttimewizard.py] Wizard finished. Saving settings ...
+2020-03-13 19:07:32,113    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:09:50,019     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:09:51,189    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:09:51,190     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:09:51,196     INFO [253:              __init__.py] Running program
+2020-03-13 19:09:51,196     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:09:53,183    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:11:23,117     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:11:24,474    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:11:24,474     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:11:24,480     INFO [253:              __init__.py] Running program
+2020-03-13 19:11:24,480     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:11:26,379    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:12:35,248     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:12:36,475    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:12:36,476     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:12:36,480     INFO [253:              __init__.py] Running program
+2020-03-13 19:12:36,480     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:12:38,528    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:13:03,961     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:13:05,113    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:13:05,114     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:13:05,119     INFO [253:              __init__.py] Running program
+2020-03-13 19:13:05,120     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:13:07,120    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:13:18,502     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:13:19,905    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:13:19,906     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:13:19,910     INFO [253:              __init__.py] Running program
+2020-03-13 19:13:19,911     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:13:21,903    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:15:04,108     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:15:05,435    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:15:05,436     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:15:05,442     INFO [253:              __init__.py] Running program
+2020-03-13 19:15:05,443     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:15:07,322    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:16:45,775    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 19:17:25,966     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:17:27,076    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:17:27,077     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:17:27,081     INFO [253:              __init__.py] Running program
+2020-03-13 19:17:27,081     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:17:29,021    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:18:22,104     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:18:23,283    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:18:23,284     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:18:23,289     INFO [253:              __init__.py] Running program
+2020-03-13 19:18:23,290     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:18:25,235    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:19:00,453    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 19:19:14,421     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:19:15,372    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:19:15,373     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:19:15,378     INFO [253:              __init__.py] Running program
+2020-03-13 19:19:15,378     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:19:17,319    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:20:56,758    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 19:21:53,149     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:21:54,566    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:21:54,567     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:21:54,570     INFO [253:              __init__.py] Running program
+2020-03-13 19:21:54,571     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:21:56,474    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:22:51,888    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 19:42:04,130     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:42:05,726    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:42:05,727     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:42:05,732     INFO [253:              __init__.py] Running program
+2020-03-13 19:42:05,732     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:42:08,475    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:42:31,974     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:42:33,548    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:42:33,548     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:42:33,556     INFO [253:              __init__.py] Running program
+2020-03-13 19:42:33,560     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:42:36,230    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:43:04,052     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:43:05,704    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:43:05,705     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:43:05,709     INFO [253:              __init__.py] Running program
+2020-03-13 19:43:05,709     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:43:08,204    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:43:46,770     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:43:48,191    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:43:48,191     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:43:48,203     INFO [253:              __init__.py] Running program
+2020-03-13 19:43:48,203     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:43:50,396    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:44:31,896     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:44:33,657    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:44:33,657     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:44:33,665     INFO [253:              __init__.py] Running program
+2020-03-13 19:44:33,665     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:44:35,996    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:45:41,871     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:45:43,241    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:45:43,242     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:45:43,247     INFO [253:              __init__.py] Running program
+2020-03-13 19:45:43,247     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:45:45,979    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:55:28,188     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:55:29,763    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:55:29,763     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:55:29,779     INFO [253:              __init__.py] Running program
+2020-03-13 19:55:29,779     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:55:32,342    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:56:48,600     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:56:50,071    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:56:50,073     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:56:50,075     INFO [253:              __init__.py] Running program
+2020-03-13 19:56:50,079     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:56:52,350    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:57:30,614     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:57:32,099    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:57:32,099     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:57:32,107     INFO [253:              __init__.py] Running program
+2020-03-13 19:57:32,111     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:57:34,733    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 19:58:50,933     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 19:58:52,421    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 19:58:52,421     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 19:58:52,421     INFO [253:              __init__.py] Running program
+2020-03-13 19:58:52,421     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 19:58:55,347    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:00:50,933     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:00:52,322    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:00:52,324     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:00:52,332     INFO [253:              __init__.py] Running program
+2020-03-13 20:00:52,333     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:00:54,831    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:02:27,427     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:02:28,753    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:02:28,753     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:02:28,761     INFO [253:              __init__.py] Running program
+2020-03-13 20:02:28,765     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:02:31,041    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:06:05,998     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:06:07,668    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:06:07,668     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:06:07,676     INFO [253:              __init__.py] Running program
+2020-03-13 20:06:07,676     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:06:10,090    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:06:36,893     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:06:38,602    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:06:38,606     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:06:38,610     INFO [253:              __init__.py] Running program
+2020-03-13 20:06:38,610     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:06:40,851    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:07:03,850    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-13 20:09:18,851     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:09:20,854    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:09:20,855     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:09:20,863     INFO [253:              __init__.py] Running program
+2020-03-13 20:09:20,864     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:09:23,162    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:12:13,271     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:12:14,808    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:12:14,808     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:12:14,817     INFO [253:              __init__.py] Running program
+2020-03-13 20:12:14,818     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:12:17,267    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:14:01,284     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:14:36,058     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:14:37,402    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:14:37,402     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:14:37,410     INFO [253:              __init__.py] Running program
+2020-03-13 20:14:37,410     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:14:39,617    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:16:47,342     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:16:48,591    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:16:48,592     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:16:48,598     INFO [253:              __init__.py] Running program
+2020-03-13 20:16:48,598     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:16:48,599    ERROR [162:              __init__.py] It's already running
+2020-03-13 20:17:22,184     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:17:23,706    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:17:23,706     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:17:23,710     INFO [253:              __init__.py] Running program
+2020-03-13 20:17:23,714     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:17:23,714    ERROR [162:              __init__.py] It's already running
+2020-03-13 20:17:31,214     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:17:32,620    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:17:32,620     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:17:32,626     INFO [253:              __init__.py] Running program
+2020-03-13 20:17:32,626     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:17:35,157    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:18:02,670     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:18:04,116    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:18:04,116     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:18:04,124     INFO [253:              __init__.py] Running program
+2020-03-13 20:18:04,124     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:18:06,394    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:18:28,365     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:18:29,763    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:18:29,763     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:18:29,767     INFO [253:              __init__.py] Running program
+2020-03-13 20:18:29,767     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:18:32,680    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:19:58,053     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:19:59,415    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:19:59,415     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:19:59,419     INFO [253:              __init__.py] Running program
+2020-03-13 20:19:59,423     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:20:01,731    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:20:25,141     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:20:26,524    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:20:26,525     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:20:26,531     INFO [253:              __init__.py] Running program
+2020-03-13 20:20:26,531     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:20:29,093    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:22:49,885     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:22:51,452    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:22:51,456     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:22:51,460     INFO [253:              __init__.py] Running program
+2020-03-13 20:22:51,460     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:22:53,900    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:26:32,074     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:26:33,559    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:26:33,560     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:26:33,566     INFO [253:              __init__.py] Running program
+2020-03-13 20:26:33,566     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:26:36,004    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:27:54,155     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:27:55,565    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:27:55,566     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:27:55,573     INFO [253:              __init__.py] Running program
+2020-03-13 20:27:55,574     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:27:57,827    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:28:54,564     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:28:56,286    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:28:56,287     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:28:56,293     INFO [253:              __init__.py] Running program
+2020-03-13 20:28:56,294     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:28:58,830    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:32:23,535     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:32:25,017    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:32:25,017     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:32:25,025     INFO [253:              __init__.py] Running program
+2020-03-13 20:32:25,025     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:32:27,716    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:34:43,419     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:34:44,682    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:34:44,683     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:34:44,689     INFO [253:              __init__.py] Running program
+2020-03-13 20:34:44,689     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:34:46,833    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:35:01,825     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:35:03,246    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:35:03,246     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:35:03,254     INFO [253:              __init__.py] Running program
+2020-03-13 20:35:03,254     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:35:05,607    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:35:47,791     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:35:49,420    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:35:49,424     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:35:49,428     INFO [253:              __init__.py] Running program
+2020-03-13 20:35:49,428     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:35:52,487    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:40:14,902     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:40:16,610    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:40:16,610     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:40:16,610     INFO [253:              __init__.py] Running program
+2020-03-13 20:40:16,610     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:40:19,203    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:41:27,860     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:41:29,304    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:41:29,305     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:41:29,310     INFO [253:              __init__.py] Running program
+2020-03-13 20:41:29,311     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:41:31,520    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:42:23,660     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:42:24,950    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:42:24,954     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:42:24,966     INFO [253:              __init__.py] Running program
+2020-03-13 20:42:24,966     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:42:27,546    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:42:54,278     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:42:55,960    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:42:55,960     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:42:55,960     INFO [253:              __init__.py] Running program
+2020-03-13 20:42:55,960     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:42:58,822    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:44:06,160     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:44:07,761    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:44:07,761     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:44:07,769     INFO [253:              __init__.py] Running program
+2020-03-13 20:44:07,770     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:44:10,109    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:45:42,104     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:45:43,439    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:45:43,440     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:45:43,446     INFO [253:              __init__.py] Running program
+2020-03-13 20:45:43,447     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:45:46,082    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:47:38,968     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:47:40,304    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:47:40,305     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:47:40,310     INFO [253:              __init__.py] Running program
+2020-03-13 20:47:40,311     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:47:42,526    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:49:39,890     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:49:41,398    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:49:41,402     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:49:41,406     INFO [253:              __init__.py] Running program
+2020-03-13 20:49:41,406     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:49:41,406    ERROR [162:              __init__.py] It's already running
+2020-03-13 20:49:48,904     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:49:50,373    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:49:50,373     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:49:50,377     INFO [253:              __init__.py] Running program
+2020-03-13 20:49:50,377     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:49:53,124    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:50:49,460     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:50:50,950    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:50:50,950     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:50:50,957     INFO [253:              __init__.py] Running program
+2020-03-13 20:50:50,957     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:50:53,238    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:51:27,963     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:51:29,346    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:51:29,346     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:51:29,350     INFO [253:              __init__.py] Running program
+2020-03-13 20:51:29,350     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:51:31,652    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:51:59,499     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:52:01,112    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:52:01,112     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:52:01,116     INFO [253:              __init__.py] Running program
+2020-03-13 20:52:01,120     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:52:03,374    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:53:31,481     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:53:33,004    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:53:33,004     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:53:33,021     INFO [253:              __init__.py] Running program
+2020-03-13 20:53:33,021     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:53:35,365    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:54:32,049     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:54:33,732    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:54:33,735     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:54:33,742     INFO [253:              __init__.py] Running program
+2020-03-13 20:54:33,743     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:54:36,377    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:56:01,473     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:56:02,727    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:56:02,728     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:56:02,734     INFO [253:              __init__.py] Running program
+2020-03-13 20:56:02,734     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:56:05,130    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:57:08,066     INFO [ 13:              registry.py] Registry loaded
+2020-03-13 20:57:09,561    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-13 20:57:09,562     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-13 20:57:09,569     INFO [253:              __init__.py] Running program
+2020-03-13 20:57:09,570     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-13 20:57:11,953    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-13 20:57:29,682    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-14 20:39:01,858     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:39:07,997    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:39:07,998     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:39:08,007     INFO [253:              __init__.py] Running program
+2020-03-14 20:39:08,007     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:39:10,348    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:40:17,396    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-14 20:41:12,637     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:41:13,708    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:41:13,709     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:41:13,714     INFO [253:              __init__.py] Running program
+2020-03-14 20:41:13,715     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:41:15,863    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:41:54,542     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:41:55,752    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:41:55,752     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:41:55,756     INFO [253:              __init__.py] Running program
+2020-03-14 20:41:55,757     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:41:57,642    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:42:21,410     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:42:22,404    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:42:22,405     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:42:22,410     INFO [253:              __init__.py] Running program
+2020-03-14 20:42:22,410     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:42:24,563    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:43:14,356     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:43:15,400    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:43:15,400     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:43:15,405     INFO [253:              __init__.py] Running program
+2020-03-14 20:43:15,406     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:43:17,408    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:43:53,021     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:43:54,214    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:43:54,216     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:43:54,223     INFO [253:              __init__.py] Running program
+2020-03-14 20:43:54,223     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:43:56,550    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:44:50,456     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:44:51,546    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:44:51,547     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:44:51,553     INFO [253:              __init__.py] Running program
+2020-03-14 20:44:51,553     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:44:53,624    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:45:51,366     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:45:52,480    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:45:52,480     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:45:52,480     INFO [253:              __init__.py] Running program
+2020-03-14 20:45:52,480     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:45:54,519    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:51:46,002     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:51:47,858    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:51:47,859     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:51:47,863     INFO [253:              __init__.py] Running program
+2020-03-14 20:51:47,864     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:51:47,864    ERROR [162:              __init__.py] It's already running
+2020-03-14 20:51:55,069     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:51:56,233    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:51:56,234     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:51:56,239     INFO [253:              __init__.py] Running program
+2020-03-14 20:51:56,239     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:51:58,433    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:52:50,461     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:52:51,528    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:52:51,534     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:52:51,548     INFO [253:              __init__.py] Running program
+2020-03-14 20:52:51,549     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:52:53,509    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:53:28,228     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:53:29,404    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:53:29,404     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:53:29,409     INFO [253:              __init__.py] Running program
+2020-03-14 20:53:29,410     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:53:31,636    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:54:16,015     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:54:17,191    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:54:17,192     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:54:17,198     INFO [253:              __init__.py] Running program
+2020-03-14 20:54:17,198     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:54:19,477    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:58:06,951     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:58:07,944    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:58:07,945     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:58:07,950     INFO [253:              __init__.py] Running program
+2020-03-14 20:58:07,951     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:58:09,885    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 20:59:34,133     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 20:59:35,361    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 20:59:35,361     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 20:59:35,368     INFO [253:              __init__.py] Running program
+2020-03-14 20:59:35,369     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 20:59:37,757    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:00:45,306     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:00:46,551    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:00:46,552     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:00:46,556     INFO [253:              __init__.py] Running program
+2020-03-14 21:00:46,556     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:00:48,519    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:01:46,918     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:01:47,923    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:01:47,924     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:01:47,929     INFO [253:              __init__.py] Running program
+2020-03-14 21:01:47,929     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:01:49,934    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:03:09,305     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:03:10,526    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:03:10,527     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:03:10,533     INFO [253:              __init__.py] Running program
+2020-03-14 21:03:10,534     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:03:12,578    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:04:48,077     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:04:49,116    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:04:49,117     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:04:49,122     INFO [253:              __init__.py] Running program
+2020-03-14 21:04:49,122     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:04:51,157    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:06:08,210     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:06:09,311    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:06:09,311     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:06:09,316     INFO [253:              __init__.py] Running program
+2020-03-14 21:06:09,317     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:06:11,398    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:07:25,381     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:07:26,543    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:07:26,544     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:07:26,548     INFO [253:              __init__.py] Running program
+2020-03-14 21:07:26,548     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:07:28,613    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:12:08,313     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:12:09,578    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:12:09,578     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:12:09,583     INFO [253:              __init__.py] Running program
+2020-03-14 21:12:09,584     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:12:11,501    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:14:21,729     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:14:22,916    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:14:22,917     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:14:22,920     INFO [253:              __init__.py] Running program
+2020-03-14 21:14:22,921     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:14:25,038    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 21:15:12,391    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-14 21:50:55,857     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 21:50:57,072    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 21:50:57,072     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 21:50:57,072     INFO [253:              __init__.py] Running program
+2020-03-14 21:50:57,072     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 21:50:59,050    DEBUG [146:              __init__.py] Splashscreen closed
