@@ -36,7 +36,7 @@ class Thread_for_Validate(QObject):
             else:
                 self.data_frame_empty.emit()
         else:
-            self.is_exception.emit(str('No Column ID in the uploaded file.'))
+            self.is_exception.emit('No Column ID in the uploaded file.')
 
     def Check_numeric_value(self):
 
@@ -57,23 +57,28 @@ class Thread_for_Download(QObject):
     data_frame_empty = pyqtSignal()
     is_exception = pyqtSignal(str)
 
-    def __init__(self,df, filename):
+    def __init__(self,df, filename, module_name):
 
         QThread.__init__(self)
         self.df = df
         self.filename = filename
+        self.ModuleName = module_name
 
     def start_download(self):
-        try:
-            self.df['ID'].replace('', np.nan, inplace=True)
-            self.df.dropna(subset=['ID'], inplace=True)
+        columns = list(self.df.columns)
+        lower_columns = list(map(lambda x:x.lower().strip(),columns))
+        if 'id' in lower_columns:
+            idx = lower_columns.index('id')
+            text = columns[idx]
+            self.df[text].replace('', np.nan, inplace=True)
+            self.df.dropna(subset=[text], inplace=True)
             if not self.df.empty:
+                #print(self.module_name,type(self.module_name))
                 values = self.df.to_dict(orient='records')
                 length  = len(values)
                 total = 100 / length
-
                 for i in range(length):
-                    name_of_file = str(i+1)
+                    name_of_file = self.ModuleName+'_'+str(i+1)
                     complete_name = os.path.join(self.filename,name_of_file+".txt")
                     file = open(complete_name,'w')
                     toFile = str(values[i])
@@ -86,5 +91,5 @@ class Thread_for_Download(QObject):
             else:
                 self.data_frame_empty.emit()
 
-        except Exception as e:
-            self.is_exception.emit(str(e))
+        else:
+            self.is_exception.emit('No Column ID in the uploaded file.')

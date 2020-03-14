@@ -1,20 +1,8 @@
 --------------------------------------------------------------------------------
-2020-03-14, 21:08:18
+2020-03-14, 22:17:03
 --------------------------------------------------------------------------------
-<class 'ValueError'>: 
-could not convert string to float: ''
+<class 'OSError'>: 
+[Errno 22] Invalid argument: "C:/Users/nitin/Documents/github/v4\\<class 'app.ui.mainframe.FinPlate'>_1.txt"
 --------------------------------------------------------------------------------
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\PandasModel.py", line 51, in setData
-    self._df[col] = self._df[col].astype('float64')
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 5881, in astype
-    new_data = self._data.astype(
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\managers.py", line 581, in astype
-    return self.apply("astype", dtype=dtype, **kwargs)
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\managers.py", line 438, in apply
-    applied = getattr(b, f)(**kwargs)
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\blocks.py", line 559, in astype
-    return self._astype(dtype, copy=copy, errors=errors, values=values, **kwargs)
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\blocks.py", line 643, in _astype
-    values = astype_nansafe(vals1d, dtype, copy=True, **kwargs)
-  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\dtypes\cast.py", line 729, in astype_nansafe
-    return arr.astype(dtype, copy=True)
+  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\Thread.py", line 84, in start_download
+    file = open(complete_name,'w')

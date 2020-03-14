@@ -142,6 +142,8 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
         self.__Downloadthreads = []
         self.__Validatethreads = []
+        self.module_name = "FinPlate"
+        self.ModuleColumns = ['ID','Connection type','Axial load','Shear load','Bolt diameter','Bolt grade','Plate thickness']
 
 
         self.setup_ui()
@@ -199,8 +201,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
 
     def set_values(self):
-        Columns = ['ID','Connection type','Axial load','Shear load','Bolt diameter','Bolt grade','Plate thickness']
-        self.df = pd.DataFrame(columns=Columns,index=range(1000))
+        self.df = pd.DataFrame(columns=self.ModuleColumns,index=range(1000))
         self.df = self.df.fillna('')
         model = PandasModel(self.df)
         self.pandasTv.setModel(model)
@@ -235,7 +236,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
     def validate_uploaded_file(self,df):
         Columns = list(df.columns)
-        original_columns = ['ID','Connection type','Axial load','Shear load','Bolt diameter','Bolt grade','Plate thickness']
+        original_columns = list(self.ModuleColumns)
         for i in range(len(Columns)):
             Columns[i] = Columns[i].lower()
         for i in range(len(original_columns)):
@@ -410,6 +411,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
                 thread.wait()
 
         self.enable_btn()
+        self.progress_bar.hide()
         self._manager.stop()
 
 
@@ -422,9 +424,8 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
             self.disable_btn()
             Model = self.pandasTv.model()
             df = Model._df.copy()
-            print(df.empty)
             self.count+=1
-            Worker = Thread_for_Download(df,filename)
+            Worker = Thread_for_Download(df,filename,self.module_name)
             thread = QThread()
             thread.setObjectName('main'+str(self.count))
             self.__Downloadthreads.append((thread,Worker))
@@ -467,19 +468,8 @@ class TensionMember(FinPlate):
         super(TensionMember, self).__init__(parent)
 
         self.setObjectName(self.__class__.__name__)
-
-        self.set_values()
-
-    def set_values(self):
-        Columns = ['ID','Member length','Tensile load','Support condition at End 1','Support condition at End 2']
-        self.df = pd.DataFrame(columns=Columns,index=range(1000))
-        self.df = self.df.fillna('')
-        model = PandasModel(self.df)
-        self.pandasTv.setModel(model)
-
-    def reset_table(self):
-        Columns = ['ID','Member length','Tensile load','Support condition at End 1','Support condition at End 2']
-        self.pandasTv.model().set_values(Columns, QtCore.QModelIndex())
+        self.ModuleColumns = ['ID','Member length','Tensile load','Support condition at End 1','Support condition at End 2']
+        self.module_name = "TensionMember"
 
 class BCEndPlate(FinPlate):
 
@@ -487,18 +477,8 @@ class BCEndPlate(FinPlate):
     def __init__(self,parent=None):
         super(BCEndPlate, self).__init__(parent)
         self.setObjectName(self.__class__.__name__)
-        self.set_values()
-
-    def set_values(self):
-        Columns = ['ID','End plate type','Shear load','Axial Load','Moment Load','Bolt diameter','Bolt grade','Plate thickness']
-        self.df = pd.DataFrame(columns=Columns,index=range(1000))
-        self.df = self.df.fillna('')
-        model = PandasModel(self.df)
-        self.pandasTv.setModel(model)
-
-    def reset_table(self):
-        Columns = ['ID','End plate type','Shear load','Axial Load','Moment Load','Bolt diameter','Bolt grade','Plate thickness']
-        self.pandasTv.model().set_values(Columns, QtCore.QModelIndex())
+        self.module_name = "BCEndPlate"
+        self.ModuleColumns = ['ID','End plate type','Shear load','Axial Load','Moment Load','Bolt diameter','Bolt grade','Plate thickness']
 
 
 class CleatAngle(FinPlate):
@@ -507,15 +487,5 @@ class CleatAngle(FinPlate):
     def __init__(self,parent=None):
         super(CleatAngle, self).__init__(parent)
         self.setObjectName(self.__class__.__name__)
-        self.set_values()
-
-    def set_values(self):
-        Columns = ['ID','Angle leg 1','Angle leg 2','Angle thickness','Shear load','Bolt diameter','Bolt grade']
-        self.df = pd.DataFrame(columns=Columns,index=range(1000))
-        self.df = self.df.fillna('')
-        model = PandasModel(self.df)
-        self.pandasTv.setModel(model)
-
-    def reset_table(self):
-        Columns = ['ID','Angle leg 1','Angle leg 2','Angle thickness','Shear load','Bolt diameter','Bolt grade']
-        self.pandasTv.model().set_values(Columns, QtCore.QModelIndex())
+        self.module_name = "CleatAngle"
+        self.ModuleColumns = ['ID','Angle leg 1','Angle leg 2','Angle thickness','Shear load','Bolt diameter','Bolt grade']
