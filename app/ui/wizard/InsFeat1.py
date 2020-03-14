@@ -33,10 +33,9 @@ class Frame(QtWidgets.QFrame):
         2. User can also perform operations like adding row(s), deleting row(s), Clearing values of row(s),
            Clearing Table. Right clicking on the header of selected row(s) will show above options.
 
-        3. From all the rows of the data table, only those rows will be considered for data validation and downloading
+        3. From all the rows of data table, only those rows will be considered for data validation and downloading
            which contains some value in the column ID except these row(s) all other row(s) will be ignored. It is also
            advised to validate the data before downloading it to get the error free result.
-
 
         ''')
 

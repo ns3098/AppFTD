@@ -15916,3 +15916,16 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2020-03-14 23:11:42,896     INFO [254:              __init__.py] INI file: settings.ini
 2020-03-14 23:11:44,792    DEBUG [146:              __init__.py] Splashscreen closed
 2020-03-14 23:12:23,601    DEBUG [ 74:           globalframe.py] Running in background...
+2020-03-14 23:15:00,309     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 23:15:01,771    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 23:15:01,771     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 23:15:01,779     INFO [253:              __init__.py] Running program
+2020-03-14 23:15:01,779     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 23:17:56,090     INFO [ 13:              registry.py] Registry loaded
+2020-03-14 23:17:57,661    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-14 23:17:57,661     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-14 23:17:57,661     INFO [253:              __init__.py] Running program
+2020-03-14 23:17:57,661     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-14 23:18:09,306    DEBUG [128:       firsttimewizard.py] Wizard finished. Saving settings ...
+2020-03-14 23:18:11,843    DEBUG [146:              __init__.py] Splashscreen closed
+2020-03-14 23:19:00,719    DEBUG [ 74:           globalframe.py] Running in background...
