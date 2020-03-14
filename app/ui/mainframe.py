@@ -163,8 +163,11 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.settings_layout.addStretch(0)
 
         self.settings_layout.addWidget(self.file_upload_tb)
+
         self.settings_layout.addWidget(self.validate_tb)
+
         self.settings_layout.addWidget(self.download_tb)
+
         self.settings_layout.addWidget(self.progress_bar)
 
         self.layout.addWidget(self.pandasTv)
@@ -486,6 +489,7 @@ class TensionMember(FinPlate):
         self.setObjectName(self.__class__.__name__)
         self.ModuleColumns = ['ID','Member length','Tensile load','Support condition at End 1','Support condition at End 2']
         self.module_name = "TensionMember"
+        self.set_values()
 
 class BCEndPlate(FinPlate):
 
@@ -495,6 +499,7 @@ class BCEndPlate(FinPlate):
         self.setObjectName(self.__class__.__name__)
         self.module_name = "BCEndPlate"
         self.ModuleColumns = ['ID','End plate type','Shear load','Axial Load','Moment Load','Bolt diameter','Bolt grade','Plate thickness']
+        self.set_values()
 
 
 class CleatAngle(FinPlate):
@@ -505,3 +510,4 @@ class CleatAngle(FinPlate):
         self.setObjectName(self.__class__.__name__)
         self.module_name = "CleatAngle"
         self.ModuleColumns = ['ID','Angle leg 1','Angle leg 2','Angle thickness','Shear load','Bolt diameter','Bolt grade']
+        self.set_values()

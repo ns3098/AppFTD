@@ -561,14 +561,6 @@ QToolButton#File_uploadTB {
     image: url(:icons/Upload_.png);
 }
 
-QToolButton#File_uploadTB:hover {
-    background-color: #212c34;
-    border-radius: 25px;
-    border: 0.5px solid #00FFFF;
-    /*border: 1px transparent #4A4949;*/
-    /*qproperty-icon: none;*/
-    image: url(:icons/Upload_.png);
-}
 QToolButton#ValidateTB {
     background-color: #1a242b;
     border: 0 solid #182229;
@@ -579,12 +571,6 @@ QToolButton#ValidateTB {
     image: url(:icons/Validate_.png);
 }
 
-QToolButton#ValidateTB:hover {
-    background-color: #212c34;
-    border-radius: 25px;
-    border: 0.5px solid #00FFFF;
-    image: url(:icons/Validate_.png);
-}
 
 QToolButton#DownloadTB {
     background-color: #1a242b;
@@ -596,12 +582,6 @@ QToolButton#DownloadTB {
     image: url(:icons/Download_.png);
 }
 
-QToolButton#DownloadTB:hover {
-    background-color: #212c34;
-    border-radius: 25px;
-    border: 0.5px solid #00FFFF;
-    image: url(:icons/Download_.png);
-}
 QTableView
 {
  selection-background-color: DodgerBlue;
@@ -626,13 +606,15 @@ QHeaderView
 }
 
 QHeaderView::section {
-
-    border: 0.5px solid #6c6c6c;
+  color:white;
+  background:rgba(22, 31, 38, 1);
+  
 }
 
 QHeaderView::section:checked
 {
     background-color: Thistle;
+    color:black;
 }
 
 QProgressBar{
