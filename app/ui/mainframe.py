@@ -167,14 +167,6 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.settings_layout.addWidget(self.download_tb)
         self.settings_layout.addWidget(self.progress_bar)
 
-        '''self.layout.addWidget(self.top_label)
-        self.layout.addStretch()
-        self.layout.addWidget(self.prayer_frame)
-        self.layout.addLayout(self.buttons_layout)
-        self.layout.addStretch()
-        self.layout.addWidget(self.dua_after_athan_cb)
-        self.layout.addStretch()
-        self.layout.addLayout(self.settings_layout)'''
         self.layout.addWidget(self.pandasTv)
 
         #self.settings_layout.setContentsMargins(0,50,0,0)
@@ -184,9 +176,12 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.pandasTv.horizontalHeader().setStretchLastSection(True)
         self.pandasTv.setAlternatingRowColors(True)  ## Enable colouring alternate rows
 
+        self.pandasTv.setSortingEnabled(0)  ## Set value to 1 if you want to Enable sorting(Not recommended for large data set)
+
         # Using ResizeToContents instead of Stretch makes the Application Laggy while switching Windows size and Tab.
         self.pandasTv.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
-        self.pandasTv.verticalHeader().setContextMenuPolicy(Qt.CustomContextMenu)
+
+        self.pandasTv.verticalHeader().setContextMenuPolicy(Qt.CustomContextMenu) ## Setting right click menu.
         self.pandasTv.verticalHeader().customContextMenuRequested.connect(self.getObjectHeaderContextMenu)
 
 
