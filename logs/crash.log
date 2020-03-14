@@ -1,8 +1,26 @@
 --------------------------------------------------------------------------------
-2020-03-14, 22:17:03
+2020-03-15, 00:23:17
 --------------------------------------------------------------------------------
-<class 'OSError'>: 
-[Errno 22] Invalid argument: "C:/Users/nitin/Documents/github/v4\\<class 'app.ui.mainframe.FinPlate'>_1.txt"
+<class 'TypeError'>: 
+cannot do label indexing on <class 'pandas.core.indexes.base.Index'> with these indexers [0] of <class 'int'>
 --------------------------------------------------------------------------------
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\Thread.py", line 84, in start_download
-    file = open(complete_name,'w')
+  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\PandasModel.py", line 44, in data
+    return QtCore.QVariant(str(self._df.loc[index.row() ,index.column()]))
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1761, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1271, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1420, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1767, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1963, in _getitem_axis
+    self._validate_key(key, axis)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1830, in _validate_key
+    self._convert_scalar_indexer(key, axis)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 740, in _convert_scalar_indexer
+    return ax._convert_scalar_indexer(key, kind=self.name)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexes\base.py", line 2888, in _convert_scalar_indexer
+    self._invalid_indexer("label", key)
+  File "C:\Users\nitin\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexes\base.py", line 3076, in _invalid_indexer
+    raise TypeError(

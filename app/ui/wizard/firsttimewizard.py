@@ -9,7 +9,7 @@ from app.ui.wizard.lastpage import LastPage
 from app.ui.wizard.InsFeat1 import InstrFeat1
 from app.ui.wizard.welcomepage import WelcomeWizardPage
 from app.ui.wizard.InsFeat2 import InstrFeat2
-from app.ui.wizard.DownloadWizard import DownloadWizardPage
+
 
 from app.core.common.logapi import log
 from app.core.common.settings import Settings
