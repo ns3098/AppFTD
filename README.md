@@ -19,7 +19,7 @@ AppFTD is an application to work with tabular data(without internet connection).
 
 > The aim of the application is to develop a beautiful and modern
 > looking UI unlike most of the naive application developed in PyQt.
-> It might contains some bugs although all possible erros has been 
+> It might contains some bugs although all possible erros has been
 > taken care of. Do not forget to send feedbacks and bugs issues.
 
 
@@ -37,11 +37,7 @@ AppFTD uses these tools to work properly:
 
 AppFTD requires [Python 3](https://www.python.org/) to run. Make sure it is already installed.
 
-1. Clone the repository (or you can just download the zip file and extracts it).
-
-```sh
-$ git clone https://github.com/ns3098/fsf_2020_screening_task.git
-```
+1. Download the zip file and extract it in a directory.
 
 2. Install all the required dependencies.
 ```sh
@@ -51,6 +47,3 @@ $ pip install -r requirements.txt
 ```sh
 $ python AppFTD.py
 ```
-
-
-
