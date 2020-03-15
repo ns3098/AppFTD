@@ -1,4 +1,3 @@
-
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 from PyQt5 import QtWidgets
@@ -15,9 +14,9 @@ class SimplestLabel(QtWidgets.QLabel):
         self.setWordWrap(True)
 
 
-class AsrSettingsFrame(QtWidgets.QFrame):
+class Frame(QtWidgets.QFrame):
     def __init__(self, parent=None):
-        super(AsrSettingsFrame, self).__init__(parent)
+        super(Frame, self).__init__(parent)
 
         self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
         self.setObjectName(self.__class__.__name__)
@@ -25,16 +24,12 @@ class AsrSettingsFrame(QtWidgets.QFrame):
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setSpacing(10)
         self.question_label = QtWidgets.QLabel('''
-
         4. User can upload *.csv or *.xlsx data file. Uploaded file will populate the table with file contents and
            overwrite the table. Always make sure to finish working with current file before uploading new data file.
-
         5. To edit the value in any cell double click on the cell and start editing. To overwrite whole data of the
             cell simply select the cell by single left click and type the new value. Just like Google Spreadsheet.
-
         6. In case of any critical error while running, app will show an error message and then automatically closes.
            To get more details check log file.
-
         ''')
 
 
@@ -57,21 +52,20 @@ class InstrFeat2(QtWidgets.QWizardPage):
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setAlignment(Qt.AlignCenter)
 
-        self.asr_frame = AsrSettingsFrame(parent=self)
+        self.frame = Frame(parent=self)
 
         self.setTitle("Features and Instructions")
         self.setSubTitle("\nUser is advised to read all the points carefully.\n\n"
                         "Since this is a one time wizard all these points will not be displayed again when you open the application.")
         self.setPixmap(QtWidgets.QWizard.BannerPixmap, QPixmap(":/icons/wizard_prayer.png"))
 
-        self.layout.addWidget(self.asr_frame)
+        self.layout.addWidget(self.frame)
 
         self.setLayout(self.layout)
 
     def initializePage(self):
         """
         Init page with default methods.
-
         :return:
         """
         return super(InstrFeat2, self).initializePage()

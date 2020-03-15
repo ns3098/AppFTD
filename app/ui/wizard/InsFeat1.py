@@ -1,79 +1,127 @@
+import os
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPixmap
 
+from app.ui.wizard.lastpage import LastPage
+
+from app.ui.wizard.InsFeat1 import InstrFeat1
+from app.ui.wizard.welcomepage import WelcomeWizardPage
+from app.ui.wizard.InsFeat2 import InstrFeat2
+
+
+from app.core.common.logapi import log
 from app.core.common.settings import Settings
-from app.ui.abstract import CheckableButton
 
 
-class SimplestLabel(QtWidgets.QLabel):
-    def __init__(self, parent=None):
-        super(SimplestLabel, self).__init__(parent)
+class Wizard(QtWidgets.QWizard):
+    """
+    Generic AppFTD wizard to provide generic functionality and a unified look
+    and feel.
+    """
 
-        self.setObjectName(self.__class__.__name__)
-
-        self.setWordWrap(True)
-
-
-class Frame(QtWidgets.QFrame):
-    def __init__(self, parent=None):
-        super(Frame, self).__init__(parent)
-
-        self.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
-        self.setObjectName(self.__class__.__name__)
-
-        self.layout = QtWidgets.QVBoxLayout()
-        self.layout.setSpacing(10)
-        self.question_label = QtWidgets.QLabel('''
-
-        1. There are 4 tabs one for each module. On selecting a particular module an empty table with 1000 rows
-           (by default) along with corresponding header row will be displayed. User can fill data manually in each row.
-
-        2. User can also perform operations like adding row(s), deleting row(s), Clearing values of row(s),
-           Clearing Table. Right clicking on the header of selected row(s) will show above options.
-
-        3. From all the rows of data table, only those rows will be considered for data validation and downloading
-           which contains some value in the column ID except these row(s) all other row(s) will be ignored. It is also
-           advised to validate the data before downloading it to get the error free result.
-
-        ''')
-
-
-        self.question_label.setStyleSheet("color: #6F8DA6; font: 20px 'capsuula';")
-        self.question_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-
-
-
-        self.layout.addWidget(self.question_label)
-
-        self.setLayout(self.layout)
-
-
-class InstrFeat1(QtWidgets.QWizardPage):
-    def __init__(self, parent=None):
-        super(InstrFeat1, self).__init__(parent)
+    def __init__(self, parent):
+        super(Wizard, self).__init__(parent)
 
         self.setObjectName(self.__class__.__name__)
 
-        self.layout = QtWidgets.QVBoxLayout()
-        self.layout.setAlignment(Qt.AlignCenter)
+        # Need to be added, if not, moving frame from a button crash
+        self.pressed = 0
+        self.offset = self.pos()
 
-        self.frame = Frame(parent=self)
+        self.finish_button = self.button(QtWidgets.QWizard.FinishButton)
+        self.cancel_button = self.button(QtWidgets.QWizard.CancelButton)
+        self.next_button = self.button(QtWidgets.QWizard.NextButton)
+        self.back_button = self.button(QtWidgets.QWizard.BackButton)
 
-        self.setTitle("Features and Instructions")
-        self.setSubTitle("\nUser is advised to read all the points carefully.\n\n"
-                        "Since this is a one time wizard all these points will not be displayed again when you open the application.")
-        self.setPixmap(QtWidgets.QWizard.BannerPixmap, QPixmap(":/icons/wizard_prayer.png"))
 
-        self.layout.addWidget(self.frame)
+        self.setup_ui()
 
-        self.setLayout(self.layout)
+        self.welcome_page = WelcomeWizardPage(parent=self)
+        self.insFeat1 = InstrFeat1(parent=self)
+        self.insFeat2 = InstrFeat2(parent=self)
+        self.last_page = LastPage(parent=self)
 
-    def initializePage(self):
+        self.welcome_page_id = self.addPage(self.welcome_page)
+        self.insFeat1_id = self.addPage(self.insFeat1)
+        self.insFeat2_id = self.addPage(self.insFeat2)
+        self.last_page_id = self.addPage(self.last_page)
+
+        #self.currentIdChanged.connect(self.on_current_id_changed)
+
+    def setup_ui(self):
         """
-        Init page with default methods.
-
+        Set up the wizard UI.
         :return:
         """
-        return super(InstrFeat1, self).initializePage()
+        self.setObjectName(self.__class__.__name__)
+        self.setWindowFlags(self.windowFlags() | Qt.FramelessWindowHint)
+
+        self.finish_button.setFixedWidth(100)
+        self.cancel_button.setFixedWidth(100)
+        self.next_button.setFixedWidth(100)
+        self.back_button.setFixedWidth(100)
+
+
+        button_layout = [QtWidgets.QWizard.Stretch, QtWidgets.QWizard.BackButton,
+                         QtWidgets.QWizard.NextButton, QtWidgets.QWizard.FinishButton, QtWidgets.QWizard.CancelButton]
+        self.setButtonLayout(button_layout)
+        self.setModal(True)
+        self.setFixedSize(820, 565)
+
+        self.setOptions(QtWidgets.QWizard.IndependentPages | QtWidgets.QWizard.NoBackButtonOnStartPage)
+
+        self.setWizardStyle(QtWidgets.QWizard.ModernStyle)
+
+    def mousePressEvent(self, event):
+        self.offset = event.pos()
+        self.pressed = 1
+
+    def mouseMoveEvent(self, event):
+        if self.pressed:
+            x = event.globalX()
+            y = event.globalY()
+            x_w = self.offset.x()
+            y_w = self.offset.y()
+            self.move(x - x_w, y - y_w)
+
+    def mouseReleaseEvent(self, event):
+        self.pressed = 0
+
+    def showEvent(self, event):
+        """
+        Center the wizard dialog when appears.
+        :param event:
+        :return:
+        """
+        self.move(QtWidgets.QApplication.desktop().screen().rect().center() - self.rect().center())
+        return super(Wizard, self).showEvent(event)
+
+    def exec(self):
+        """
+        Run the wizard.
+        """
+        return QtWidgets.QWizard.exec(self)
+
+    def reject(self):
+        """
+        Stop the wizard on cancel button, close button or ESC key.
+        Remove settings file if wizard is not completed.
+        """
+        log.debug('Wizard cancelled by user.')
+        self.was_cancelled = True
+        if os.path.exists(Settings().fileName()):
+            try:
+                os.remove(Settings().fileName())
+            except (OSError, FileNotFoundError):
+                log.error("File {} not found...".format(Settings().fileName()))
+        return super(Wizard, self).reject()
+
+    def accept(self):
+        """
+        The wizard finished correctly.
+        Extend settings defined by user by default settings.
+        """
+        log.debug('Wizard finished. Saving settings ...')
+        Settings().extend_current_settings()
+        return super(Wizard, self).accept()

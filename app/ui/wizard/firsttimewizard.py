@@ -14,7 +14,32 @@ from app.ui.wizard.InsFeat2 import InstrFeat2
 from app.core.common.logapi import log
 from app.core.common.settings import Settings
 
+Instruction_for_page1 = '''
 
+1. There are 4 tabs one for each module. On selecting a particular module an empty table with 1000 rows
+   (by default) along with corresponding header row will be displayed. User can fill data manually in each row.
+
+2. User can also perform operations like adding row(s), deleting row(s), Clearing values of row(s),
+   Clearing Table. Right clicking on the header of selected row(s) will show above options.
+
+3. From all the rows of data table, only those rows will be considered for data validation and downloading
+   which contains some value in the column ID except these row(s) all other row(s) will be ignored. It is also
+   advised to validate the data before downloading it to get the error free result.
+
+'''
+
+Instruction_for_page2 = '''
+
+4. User can upload *.csv or *.xlsx data file. Uploaded file will populate the table with file contents and
+   overwrite the table. Always make sure to finish working with current file before uploading new data file.
+
+5. To edit the value in any cell double click on the cell and start editing. To overwrite whole data of the
+    cell simply select the cell by single left click and type the new value. Just like Google Spreadsheet.
+
+6. In case of any critical error while running, app will show an error message and then automatically closes.
+   To get more details check log file.
+
+'''
 class Wizard(QtWidgets.QWizard):
     """
     Generic AppFTD wizard to provide generic functionality and a unified look
@@ -44,8 +69,8 @@ class Wizard(QtWidgets.QWizard):
         self.last_page = LastPage(parent=self)
 
         self.welcome_page_id = self.addPage(self.welcome_page)
-        self.insFeat1_id = self.addPage(self.insFeat1)
-        self.insFeat2_id = self.addPage(self.insFeat2)
+        self.insFeat1_id = self.addPage(self.insFeat1(Instruction_for_page1))
+        self.insFeat2_id = self.addPage(self.insFeat2(Instruction_for_page2))
         self.last_page_id = self.addPage(self.last_page)
 
         #self.currentIdChanged.connect(self.on_current_id_changed)

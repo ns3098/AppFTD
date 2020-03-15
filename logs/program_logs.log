@@ -1,0 +1,447 @@
+2020-03-15 07:06:10,499     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:06:11,381    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:06:11,381     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:06:11,388     INFO [253:              __init__.py] Running program
+2020-03-15 07:06:11,388     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:06:11,742    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:06:11,742    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:06:11,745    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:06:11,747    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:06:11,762    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:06:11,763    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:06:11,764    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:06:11,767    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:07:25,857     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:07:26,725    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:07:26,725     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:07:26,730     INFO [253:              __init__.py] Running program
+2020-03-15 07:07:26,730     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:07:27,139    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:07:27,140    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:07:27,142    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:07:27,142    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:07:27,155    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:07:27,156    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:07:27,158    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:07:27,159    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:08:25,463     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:08:26,124    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:08:26,125     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:08:26,128     INFO [253:              __init__.py] Running program
+2020-03-15 07:08:26,129     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:08:26,502    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:08:26,503    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:08:26,505    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:08:26,506    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:08:26,522    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:08:26,523    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:08:26,524    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:08:26,527    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:09:28,671     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:09:29,415    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:09:29,415     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:09:29,420     INFO [253:              __init__.py] Running program
+2020-03-15 07:09:29,421     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:09:29,440    ERROR [162:              __init__.py] It's already running
+2020-03-15 07:09:36,707     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:09:37,421    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:09:37,421     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:09:37,424     INFO [253:              __init__.py] Running program
+2020-03-15 07:09:37,424     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:09:37,850    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:09:37,850    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:09:37,852    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:09:37,853    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:09:37,868    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:09:37,869    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:09:37,870    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:09:37,871    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:11:38,203     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:11:38,866    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:11:38,867     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:11:38,872     INFO [253:              __init__.py] Running program
+2020-03-15 07:11:38,873     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:11:39,246    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:11:39,247    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:11:39,249    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:11:39,249    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:11:39,263    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:11:39,264    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:11:39,265    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:11:39,266    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:12:03,919     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:12:04,816    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:12:04,831     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:12:04,848     INFO [253:              __init__.py] Running program
+2020-03-15 07:12:04,853     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:12:05,318    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:05,318    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:12:05,320    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:05,321    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:12:05,334    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:05,335    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:12:05,336    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:05,337    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:12:38,259     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:12:39,129    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:12:39,129     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:12:39,133     INFO [253:              __init__.py] Running program
+2020-03-15 07:12:39,133     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:12:39,464    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:39,465    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:12:39,467    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:39,467    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:12:39,480    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:39,481    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:12:39,482    ERROR [ 27:              __init__.py] QuantumPT Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:12:39,483    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:14:23,273     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:14:24,146    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:14:24,147     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:14:24,150     INFO [253:              __init__.py] Running program
+2020-03-15 07:14:24,151     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:14:24,613    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:14:24,616    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:14:24,623    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:14:24,624    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:14:24,645    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:14:24,646    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:14:24,649    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:14:24,650    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:16:34,314     INFO [ 13:              registry.py] Registry loaded
+2020-03-15 07:16:34,982    DEBUG [ 29:              registry.py] Registry Initialising
+2020-03-15 07:16:34,983     INFO [ 34:     translatormanager.py] Translation en_US has been correclty loaded
+2020-03-15 07:16:34,986     INFO [253:              __init__.py] Running program
+2020-03-15 07:16:34,987     INFO [254:              __init__.py] INI file: settings.ini
+2020-03-15 07:16:35,330    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:16:35,331    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:16:35,332    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:16:35,333    ERROR [121:              registry.py] Event activate_global_blur called but not registered
+2020-03-15 07:16:35,350    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 99 
+	 called Registry().execute("activate_overlay")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:16:35,351    ERROR [121:              registry.py] Event activate_overlay called but not registered
+2020-03-15 07:16:35,354    ERROR [ 27:              __init__.py] AppFTD Error trace
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\__init__.py at line 235 
+	 called if not error_box.exec_():
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py at line 100 
+	 called Registry().execute("activate_global_blur")
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\registry.py at line 120 
+	 called trace_error_handler(log)
+   File C:\Users\nitin\Desktop\fsf_2020_screening_task\app\core\common\__init__.py at line 25 
+	 called for tb in traceback.extract_stack():
+2020-03-15 07:16:35,356    ERROR [121:              registry.py] Event activate_global_blur called but not registered

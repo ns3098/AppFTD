@@ -21,7 +21,7 @@ def trace_error_handler(logger):
     :param logger: logger to use so traceback is logged to correct class
     :return:
     """
-    log_string = "QuantumPT Error trace"
+    log_string = "AppFTD Error trace"
     for tb in traceback.extract_stack():
         log_string = '{}\n   File {} at line {} \n\t called {}'.format(log_string, tb[0], tb[1], tb[3])
     logger.error(log_string)
