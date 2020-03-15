@@ -3,6 +3,13 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+```sh
+username - ns3098
+```
+```sh
+email - singhtshyamkumar430@gmail.com
+```
+
 AppFTD is an application to work with tabular data(without internet connection).
 
 
