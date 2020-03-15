@@ -585,12 +585,12 @@ QToolButton#DownloadTB {
 QTableView
 {
  selection-background-color: DodgerBlue;
- alternate-background-color: #212c34;
- background-color: gray;
+ alternate-background-color: rgba(19, 27, 33, 1);
+ background-color:#212c34;
  gridline-color: gray;
  color: white;
  font-family:Bahnschrift SemiLight;
- font-size:10pt;
+ font-size:12pt;
 }
 QTableCornerButton:section
  {
@@ -600,15 +600,15 @@ QTableCornerButton:section
 QHeaderView
 {
   qproperty-defaultAlignment: AlignCenter;
-
+  background:rgba(19, 27, 33, 1);
   font-family:Bahnschrift SemiLight;
   font-size:12pt;
 }
 
 QHeaderView::section {
   color:white;
-  background:rgba(22, 31, 38, 1);
-  
+background:rgba(19, 27, 33, 1);
+
 }
 
 QHeaderView::section:checked

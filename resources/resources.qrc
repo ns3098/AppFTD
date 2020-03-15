@@ -13,7 +13,7 @@
     </qresource>
     <qresource>
         <file>icons/wizard_map.png</file>
-        <file>icons/wizard_prayer.png</file>
+        <file>icons/wizard_.png</file>
         <file>icons/wizard_general.png</file>
         <file>icons/wizard_set.png</file>
     </qresource>
