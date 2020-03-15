@@ -49,7 +49,7 @@ class SystemTrayIcon(UniqueRegistryMixin, RegistryProperties, QtWidgets.QSystemT
         self.setContextMenu(self.right_menu)
 
         self.activated.connect(self.on_tray_icon_activated)
-        #self.setToolTip("QuantumPrayerTimes")
+        self.setToolTip("Application for tabular data")
 
     def on_tray_icon_activated(self, event):
         if event == QtWidgets.QSystemTrayIcon.Trigger:

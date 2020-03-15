@@ -24,12 +24,16 @@ class Frame(QtWidgets.QFrame):
         self.layout = QtWidgets.QVBoxLayout()
         self.layout.setSpacing(10)
         self.question_label = QtWidgets.QLabel('''
+
         4. User can upload *.csv or *.xlsx data file. Uploaded file will populate the table with file contents and
            overwrite the table. Always make sure to finish working with current file before uploading new data file.
+
         5. To edit the value in any cell double click on the cell and start editing. To overwrite whole data of the
             cell simply select the cell by single left click and type the new value. Just like Google Spreadsheet.
+
         6. In case of any critical error while running, app will show an error message and then automatically closes.
            To get more details check log file.
+           
         ''')
 
 

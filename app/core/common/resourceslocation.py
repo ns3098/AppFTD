@@ -2,7 +2,7 @@
 
 from PyQt5.QtCore import QDir
 
-# Use current dir because application is run from quantum.py
+# Use current dir because application is run from AppFTD.py
 # When application is compiled and deployed, the src_folder
 # is always considered as the root directory from which the
 # executable is run.
