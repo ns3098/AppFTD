@@ -62,7 +62,7 @@ class InstrFeat1(QtWidgets.QWizardPage):
         self.setTitle("Features and Instructions")
         self.setSubTitle("\nUser is advised to read all the points carefully.\n\n"
                         "Since this is a one time wizard all these points will not be displayed again when you open the application.")
-        self.setPixmap(QtWidgets.QWizard.BannerPixmap, QPixmap(":/icons/wizard_prayer.png"))
+        self.setPixmap(QtWidgets.QWizard.BannerPixmap, QPixmap(":/icons/wizard_.png"))
 
         self.layout.addWidget(self.frame)
 

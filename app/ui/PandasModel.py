@@ -46,7 +46,6 @@ class PandasModel(QtCore.QAbstractTableModel):
     def setData(self, index, value, role):
         row = self._df.index[index.row()]
         col = self._df.columns[index.column()]
-        print(row,col)
         if hasattr(value, 'toPyObject'):
             value = value.toPyObject()
         else:
