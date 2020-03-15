@@ -28,6 +28,7 @@ AppFTD is an application to work with tabular data(without internet connection).
 > It might contains some bugs although all possible erros has been
 > taken care of. Do not forget to send feedbacks and bugs issues.
 
+![Demo Video](https://drive.google.com/uc?export=view&id=14p2ZTi77aZJ5oXXyxJCiYbxyyxLzAqVA>)
 
 
 ### Tech
