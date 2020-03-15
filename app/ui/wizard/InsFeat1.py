@@ -73,4 +73,4 @@ class InstrFeat1(QtWidgets.QWizardPage):
         Init page with default methods.
         :return:
         """
-        return super(InstrFeat2, self).initializePage()
+        return super(InstrFeat1, self).initializePage()
