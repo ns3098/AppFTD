@@ -76,4 +76,4 @@ $ python AppFTD.py
 6. If due to any exceptions program crashes. Don't forget to check out the log file situated in logs
    directory.
 
-7. Make sure to check out all the screenshots.
+7. Make sure to check out all the demo video and download executable file.
