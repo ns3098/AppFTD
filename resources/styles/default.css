@@ -10,7 +10,7 @@
 /* PrincipalFrame ========================================================= */
 
 #PrincipalFrame {
-    /*border-image: url("resources/prayer/asr.png") 0 0 0 0 stretch stretch;*/
+
     background: rgba(22, 31, 38, 1);
     /*background: rgba(22, 31, 38, 0.5);*/
 }
@@ -87,27 +87,8 @@
     background-color: transparent;
 
 }
-/* PrayerFrame ============================================================ */
 
-#PrayerFrame {
-    background-color: transparent;
-    /*background-color: #6e0900;*/
-}
 
-/*#PrayerTimeFrame {*/
-    /*border-radius: 10px;*/
-/*}*/
-
-/*--------------------------------------------------------------------*/
-/* Warning : No space between PrayerTimeFrame[
-/* #PrayerTimeFrame[current="3"] ==> one condition
-/* #PrayerTimeFrame[current="3"][joumoua = "1"] ==> 2 conditions
-/* Conditions make in "prayerframe.py" => "_set_highlight()" function
-/*--------------------------------------------------------------------*/
-/* Joumoua (Friday) with current*/
-#PrayerTimeFrame[current="3"] {
-    background-color: rgba(79, 228, 108, 0.1);
-}
 QMenu{
   background-color: black;
   padding-top:5px;
@@ -133,59 +114,7 @@ QInputDialog{
   background-color: #32414d;
   color:white;
 }
-#PrayerTimeFrame:hover[current="3"] {
-    background-color: rgba(79, 228, 108, 0.15);
-}
 
-/* Joumoua (Friday) without current*/
-#PrayerTimeFrame[current="2"] {
-    background-color: rgba(79, 228, 108, 0.1);
-}
-
-#PrayerTimeFrame:hover[current="2"] {
-    background-color: rgba(79, 228, 108, 0.15);
-}
-
-#PrayerTimeFrame[current="1"] {
-    background-color: rgba(67, 219, 228, 0.1);
-}
-
-#PrayerTimeFrame:hover[current="1"] {
-    background-color: rgba(67, 219, 228, 0.19);
-}
-
-#PrayerTimeFrame[current="0"] {
-    background-color: rgba(164, 204, 228, 0.05);
-}
-
-#PrayerTimeFrame:hover[current="0"] {
-    background-color: rgba(164, 204, 228, 0.1);
-}
-
-#PrayerTimeFrame QLabel {
-    background-color: transparent;
-    /*background-color: #1c415d;*/
-    color: #FFFFFF;
-    /*qproperty-alignment: 'AlignVCenter | AlignCenter';*/
-    font: 14px "Ubuntu";
-    /*font-weight: bold;*/
-}
-
-#PrayerTimeFrame QCheckBox#ActivatedPT_TB::indicator:checked {
-    image: url(:/icons/prayerframe_ok.png);
-}
-
-#PrayerTimeFrame QCheckBox#ActivatedPT_TB::indicator:unchecked {
-    image: url(:/icons/prayerframe_nok.png);
-}
-
-#PrayerTimeFrame QCheckBox#MutePT_TB::indicator:checked {
-    image: url(:/icons/prayerframe_unmute.png);
-}
-
-#PrayerTimeFrame QCheckBox#MutePT_TB::indicator:unchecked {
-    image: url(:/icons/prayerframe_mute.png);
-}
 
 #QTopLabel_welcome {
     background-color: transparent;
@@ -195,67 +124,6 @@ QInputDialog{
     margin: -50px;
 }
 
-#City_Label {
-    color: #657786;
-    font: 18px "Ubuntu", serif;
-    font-weight: bold;
-}
-
-/* CityCompleter ========================================================== */
-
-#CityCompleter {
-    outline: 0;
-    selection-background-color: #2e3f46;
-    background-color: #1D282F;
-    border: 1px solid #37495b;
-    selection-color: #ffffff;
-    color: #bbbbbb;
-    font: 14px "Ubuntu";
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#CityCompleter::item {
-    padding-top: 4px;
-    padding-bottom: 4px;
-	/*margin: 2px;*/
-    selection-background-color: #2e3f46;
-    /*background-color: orange;*/
-}
-
-#CityCompleter::item:hover {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: white;
-    /*selection-background-color: #9C9EA1;*/
-    background-color: #2e3f46;
-}
-
-#CityCompleter::item:selected,
-#CityCompleter::item:focus {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: white;
-    /*selection-background-color: #9C9EA1;*/
-    background-color: #2e3f46;
-}
-
-#LineEdit {
-    background-color: #1D282F;
-    border: 1px solid #37495b;
-    border-radius: 0;
-    /*padding: 1px;*/
-    color: #BBBBBB;
-    font: 14px "Ubuntu";
-    outline: 0;
-    selection-color: #bbbbbb;
-    selection-background-color: #2e3f46;
-    min-height: 26px;
-}
-
-#LineEdit:hover {
-    border: 1px solid #78879b;
-}
 
 /* MainFrameSelector ======================================================= */
 
@@ -449,24 +317,6 @@ ListView::item:selected {
     border: 1px solid #232f3b;
 }
 
-#VolumeTB {
-    background-color: #1a242b;
-    border: 0px solid #182229;
-    border-radius: 25px;
-    padding: 0;
-    margin: 0;
-    /*qproperty-icon: none;*/
-    image: url(:icons/controloption_volume.png);
-}
-
-#VolumeTB:hover {
-    background-color: #212c34;
-    border-radius: 25px;
-    /*border: 1px solid #4A4949;*/
-    /*qproperty-icon: none;*/
-    image: url(:icons/controloption_volume_hover.png);
-}
-
 QToolButton#OpacityTB {
     background-color: #1a242b;
     border: 0 solid #182229;
@@ -491,29 +341,6 @@ QToolButton#OpacityTB:hover {
     border: 1px solid #232f3b;
 }
 
-#ControlDua {
-    outline: 0;
-    background-color: #1a242b;
-    border: 1px solid #232f3b;
-}
-
-QToolButton#DuaTB {
-    background-color: #1a242b;
-    border: 0 solid #182229;
-    border-radius: 25px;
-    padding: 0;
-    margin: 0;
-    /*qproperty-icon: none;*/
-    image: url(:icons/controloption_duacontroller.png);
-}
-
-QToolButton#DuaTB:hover {
-    background-color: #212c34;
-    border-radius: 25px;
-    /*border: 1px transparent #4A4949;*/
-    /*qproperty-icon: none;*/
-    image: url(:icons/controloption_duacontroller_hover.png);
-}
 
 QToolButton#TimeFormatTB {
     background-color: #1a242b;
@@ -747,10 +574,7 @@ QProgressBar::chunk {
     qproperty-alignment: 'AlignJustify | AlignVCenter';
 }
 
-#MethodFrame, #AsrSettingsFrame {
-    background-color: rgba(90, 104, 124, 0.03);
-    /*background-color: rgba(6, 81, 124, 0.14);*/
-}
+
 
 /* General ============================================================= */
 
