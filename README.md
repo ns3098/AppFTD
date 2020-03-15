@@ -11,6 +11,8 @@ email - singhshyamkumar430@gmail.com
 
 AppFTD is an application to work with tabular data(without internet connection).
 
+[Watch the Demo video](https://drive.google.com/file/d/14p2ZTi77aZJ5oXXyxJCiYbxyyxLzAqVA/view?usp=sharing)
+
 [Link to download executable file](https://drive.google.com/open?id=1DbK7ymM4oi_LW8498QpjOF5gf8JRNM31)
 # Features!
 
@@ -28,7 +30,6 @@ AppFTD is an application to work with tabular data(without internet connection).
 > It might contains some bugs although all possible erros has been
 > taken care of. Do not forget to send feedbacks and bugs issues.
 
-[![Watch the video](https://drive.google.com/uc?export=view&id=1HxChwz9x_W3D79Mm5FntIspf1poFqQcR>)](https://drive.google.com/file/d/14p2ZTi77aZJ5oXXyxJCiYbxyyxLzAqVA/view?usp=sharing)
 
 
 ### Tech
