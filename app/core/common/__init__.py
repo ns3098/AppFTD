@@ -49,7 +49,7 @@ def translate(context, text, comment=None, qt_translate=QtCore.QCoreApplication.
     """
     A special shortcut method to wrap around the Qt5 translation functions.
     This abstracts the translation procedure so that we can change it if at a
-    later date if necessary, without having to redo the whole of QuantumPT.
+    later date if necessary, without having to redo the whole of AppFTD.
 
     :param context: The translation context, used to give each string a context or a namespace
     :param text: The text to put into the translation tables for translation

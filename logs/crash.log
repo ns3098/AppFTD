@@ -1,8 +1,0 @@
---------------------------------------------------------------------------------
-2020-03-15, 07:16:35
---------------------------------------------------------------------------------
-<class 'AttributeError'>: 
-'NoneType' object has no attribute 'frameGeometry'
---------------------------------------------------------------------------------
-  File "C:\Users\nitin\Desktop\fsf_2020_screening_task\app\ui\abstract.py", line 102, in showEvent
-    self.move(self.global_frame.frameGeometry().topLeft() +
