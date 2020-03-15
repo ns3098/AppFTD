@@ -47,3 +47,25 @@ $ pip install -r requirements.txt
 ```sh
 $ python AppFTD.py
 ```
+
+### Some Important Instructions
+
+1. Select a single or multiple rows and right click on the vertical header for various options
+   like adding rows(above or below), clearing all the values of selected rows, clearing the table or
+   deleting selected rows.
+
+2. To edit the value of a cell double clicking on it start editing. To reset the whole value of the cell
+   select the cell with a single click and type in the new value. Just like Google Spreadsheet.
+
+3. Always Validate the data before downloading.
+
+4. If you want to close the program directly without minimizing it to system tray, make sure to uncheck
+   the option 'Minimize to system tray when program is closed' option from Settings.
+
+5. On bottom left side of the application there are 2 buttons. 1st is just for styling purpose. 2nd button
+   is used to control opacity of the application. Give it a try once.
+
+6. If due to any exceptions program crashes. Don't forget to check out the log file situated in logs
+   directory.
+
+7. Make sure to check out each and every feature of the program.
