@@ -255,6 +255,7 @@ def main():
 
     Registry().register('application', app)
     app.setApplicationVersion("v0.0.1")
+    app.setWindowIcon(QIcon(":/icons/app_icon.png"))
     # Registry().execute("restore_default_settings")
 
     # Instance check
