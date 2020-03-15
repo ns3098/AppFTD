@@ -54,7 +54,7 @@ $ python AppFTD.py
    like adding rows(above or below), clearing all the values of selected rows, clearing the table or
    deleting selected rows.
 
-2. To edit the value of a cell double clicking on it start editing. To reset the whole value of the cell
+2. To edit the value of a cell double click on it and start editing. To reset the whole value of the cell
    select the cell with a single click and type in the new value. Just like Google Spreadsheet.
 
 3. Always Validate the data before downloading.
