@@ -411,7 +411,7 @@ QToolButton#DownloadTB {
 
 QTableView
 {
- selection-background-color: DodgerBlue;
+ selection-background-color: gray;
  alternate-background-color: rgba(19, 27, 33, 1);
  background-color:#212c34;
  gridline-color: gray;
@@ -440,8 +440,8 @@ background:rgba(19, 27, 33, 1);
 
 QHeaderView::section:checked
 {
-    background-color: Thistle;
-    color:black;
+    background: Coral;
+    color:white;
 }
 
 QProgressBar{
