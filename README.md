@@ -77,3 +77,14 @@ $ python AppFTD.py
    directory.
 
 7. Make sure to check out all the demo video and download executable file.
+
+
+### TODO (If required)
+
+1. To add Search functionality.
+
+2. Adding various data filter options.
+
+
+> Modules for above functionality is ready and will be added according to
+  user need and requirements.
