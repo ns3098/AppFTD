@@ -82,14 +82,17 @@ class PandasModel(QtCore.QAbstractTableModel):
     def removeRows(self, position,parent=QtCore.QModelIndex()):  ## To remove rows.
 
         self.layoutAboutToBeChanged.emit()
+        columns = self._df.columns
         self._df = self._df.drop(position)
         self._df.reset_index(inplace=True,drop=True)
+        if self.rowCount()==0:
+            self.set_values(columns,rows=1)
         self.layoutChanged.emit()
 
-    def set_values(self, Columns, parent=QtCore.QModelIndex()):  ## Reset Dtaaframe values
+    def set_values(self, Columns, parent=QtCore.QModelIndex(), rows=1000):  ## Reset Dtaaframe values
 
         self.layoutAboutToBeChanged.emit()
-        self._df = pd.DataFrame(columns=Columns,index=range(1000))
+        self._df = pd.DataFrame(columns=Columns,index=range(rows))
         self._df = self._df.fillna('')
         self._df.reset_index(inplace=True, drop=True)
         self.layoutChanged.emit()

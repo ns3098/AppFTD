@@ -38,7 +38,7 @@ class MyProgressBar(QProgressBar):
     def text(self):
         return self._text
 
- ## Custm ROund Button
+ ## Custom Round Button
 class RoundedToolButton(QtWidgets.QToolButton):
     def __init__(self, obj_name, parent=None):
         super(RoundedToolButton, self).__init__(parent)
@@ -179,7 +179,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.pandasTv.horizontalHeader().setStretchLastSection(True)
         self.pandasTv.setAlternatingRowColors(True)  ## Enable colouring alternate rows
 
-        self.pandasTv.setSortingEnabled(0)  ## Set value to 1 if you want to Enable sorting(Not recommended for large data set)
+        self.pandasTv.setSortingEnabled(1)  ## Set value to 1 if you want to Enable sorting(Not recommended for large data set)
 
         # Using ResizeToContents instead of Stretch makes the Application Laggy while switching Windows size and Tab.
         self.pandasTv.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
@@ -199,6 +199,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
 
     def set_values(self): ##Set Values for the given Module when it's opened for first time.
+
 
         self.df = pd.DataFrame(columns=self.ModuleColumns,index=range(1000))
         self.df = self.df.fillna('')
@@ -305,21 +306,33 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
     def insertObjectsBeforeSelectedObjects(self):  ## insert rows before selected rows
 
         num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
-        if ok:
-            selectedObjectIndices = self.selectedRows()
+        if num > 10000:
+            self.show_excess_row_notification()
+        else:
+            if ok:
+                selectedObjectIndices = self.selectedRows()
             self.pandasTv.model().insertRows(selectedObjectIndices[0], num)
 
     def insertObjectsAfterSelectedObjects(self): ##Insert rows after selected rows.
 
         num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
-        if ok:
-            selectedObjectIndices = self.selectedRows()
-            self.pandasTv.model().insertRows(selectedObjectIndices[-1]+1, num)
+        if num > 10000:
+            self.show_excess_row_notification()
+        else:
+            if ok:
+                selectedObjectIndices = self.selectedRows()
+                self.pandasTv.model().insertRows(selectedObjectIndices[-1]+1, num)
 
     def deleteRows(self): ## Function to delete selected rows.
 
         selectedObjectIndices = self.selectedRows()
         self.pandasTv.model().removeRows(selectedObjectIndices)
+
+    def show_excess_row_notification(self):
+        welcome_title = 'Alert'
+        message = "Cannot add more than 1000 rows at a time.\n\n"
+        WelcomeNotification(self).notify(WelcomeNotification.WARNING, message,welcome_title, button_text='OK')
+
 
     def Clear_Table(self): ## Ask for confirmation to  clear the table
 
