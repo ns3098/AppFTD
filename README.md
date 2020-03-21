@@ -86,5 +86,5 @@ $ python AppFTD.py
 2. Adding various data filter options.
 
 
-> Modules for above functionality is ready and will be added according to
+> Modules for above functionality are ready and will be added according to
   user need and requirements.
