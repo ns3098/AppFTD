@@ -179,8 +179,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
         self.pandasTv.horizontalHeader().setStretchLastSection(True)
         self.pandasTv.setAlternatingRowColors(True)  ## Enable colouring alternate rows
 
-        self.pandasTv.setSortingEnabled(1)  ## Set value to 1 if you want to Enable sorting(Not recommended for large data set)
-
+        self.pandasTv.setSortingEnabled(1)  ## Set value to 0 if you want to Disable sorting
         # Using ResizeToContents instead of Stretch makes the Application Laggy while switching Windows size and Tab.
         self.pandasTv.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
@@ -306,7 +305,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
     def insertObjectsBeforeSelectedObjects(self):  ## insert rows before selected rows
 
         num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
-        if num > 10000:
+        if num > 5000:
             self.show_excess_row_notification()
         else:
             if ok:
@@ -316,7 +315,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
     def insertObjectsAfterSelectedObjects(self): ##Insert rows after selected rows.
 
         num, ok = QInputDialog.getInt(self, "Insert", '<html style="font-size:10pt;font-family:georgia;color:white;">Number of rows to insert</html>', 1, 1)
-        if num > 10000:
+        if num > 5000:
             self.show_excess_row_notification()
         else:
             if ok:
@@ -330,7 +329,7 @@ class FinPlate(UniqueRegistryMixin, RegistryProperties, QtWidgets.QFrame):
 
     def show_excess_row_notification(self):
         welcome_title = 'Alert'
-        message = "Cannot add more than 1000 rows at a time.\n\n"
+        message = "Cannot add more than 5000 rows at a time.\n\n"
         WelcomeNotification(self).notify(WelcomeNotification.WARNING, message,welcome_title, button_text='OK')
 
 
