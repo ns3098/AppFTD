@@ -408,7 +408,18 @@ QToolButton#DownloadTB {
     /*qproperty-icon: none;*/
     image: url(:icons/Download_.png);
 }
-
+QToolTip {
+  background-color: #212c34;
+  border: 1px solid #19232D;
+  color: white;
+  /* Remove padding, for fix combo box tooltip */
+  padding: 0px;
+  border-radius:3px;
+  font-family:Georgia;
+  font-size:11pt;
+  opacity:245;
+  /* Remove opacity, fix #174 - may need to use RGBA */
+}
 QTableView
 {
  selection-background-color: gray;
@@ -419,6 +430,16 @@ QTableView
  font-family:Bahnschrift SemiLight;
  font-size:12pt;
 }
+QTableView::item {
+    border: none;
+    outline: none;
+    outline-style: none;
+}
+
+QTableView::item:hover {
+    background: #313337;
+}
+
 QTableCornerButton:section
  {
    background-color:#212c34;

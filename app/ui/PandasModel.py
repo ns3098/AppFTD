@@ -1,7 +1,6 @@
 from PyQt5 import QtCore
 from PyQt5.QtCore import *
 import pandas as pd
-
 '''
 This is a custom Model used to show Pandas DataFrame.
 Making a QAbstractTableModel is beneficial in many ways
@@ -14,6 +13,7 @@ class PandasModel(QtCore.QAbstractTableModel):
         QtCore.QAbstractTableModel.__init__(self, parent=parent)
         self._df = df
         self._df = self._df.applymap(str)
+
     def headerData(self, section, orientation, role=QtCore.Qt.DisplayRole):
         if role != QtCore.Qt.DisplayRole:
             return QtCore.QVariant()
@@ -68,7 +68,7 @@ class PandasModel(QtCore.QAbstractTableModel):
 
     def flags(self, index):
 
-        return QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled | QtCore.Qt.ItemIsSelectable
+        return QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled | QtCore.Qt.ItemIsSelectable | QtCore.Qt.ToolTip
 
     def insertRows(self, position, count=1, parent=QtCore.QModelIndex()):  ## To insrt rows
 

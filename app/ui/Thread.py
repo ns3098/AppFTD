@@ -74,12 +74,12 @@ class Thread_for_Download(QObject):   ## thread for downloading.
             self.df[text].replace('', np.nan, inplace=True)
             self.df.dropna(subset=[text], inplace=True)
             if not self.df.empty:
-                
+
                 values = self.df.to_dict(orient='records')  ## get all the data in dictionary form.
                 length  = len(values)
                 total = 100 / length
                 for i in range(length):
-                    name_of_file = self.ModuleName+'_'+str(i+1)  ## Give file name
+                    name_of_file = self.ModuleName+'_'+str(values[i][text])  ## Give file name
                     complete_name = os.path.join(self.filename,name_of_file+".txt")
                     file = open(complete_name,'w')
                     toFile = str(values[i])
