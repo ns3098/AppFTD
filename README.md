@@ -22,37 +22,37 @@ AppFTD is an application to work with tabular data(without internet connection).
 > taken care of. Do not forget to send feedbacks and bugs issues.
 
 <p align="center">
-  <img src="/Screenshots/1.PNG" width="724" height="469">
+  <img src="/Screenshots/1.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/2.PNG" width="720" height="465">
+  <img src="/Screenshots/2.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/3.PNG" width="723" height="467">
+  <img src="/Screenshots/3.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/4.PNG" width="820" height="512">
+  <img src="/Screenshots/4.PNG" >
 </p>
 <p align="center">
-  <img src="/Screenshots/5.PNG" width="1076" height="578">
+  <img src="/Screenshots/5.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/6.PNG" width="1077" height="580">
+  <img src="/Screenshots/6.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/7.PNG" width="1079" height="575">
+  <img src="/Screenshots/7.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/8.PNG" width="1077" height="581">
+  <img src="/Screenshots/8.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/9.PNG" width="1157" height="578">
+  <img src="/Screenshots/9.PNG" >
 </p>
 <p align="center">
-  <img src="/Screenshots/10.PNG" width="1250" height="599">
+  <img src="/Screenshots/10.PNG">
 </p>
 <p align="center">
-  <img src="/Screenshots/11.PNG" width="1254" height="605">
+  <img src="/Screenshots/11.PNG">
 </p>
 ### Tech
 
