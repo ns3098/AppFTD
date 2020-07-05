@@ -21,7 +21,7 @@ AppFTD is an application to work with tabular data(without internet connection).
 > It might contains some bugs although all possible erros has been
 > taken care of. Do not forget to send feedbacks and bugs issues.
 
-
+![Alt text](/Screenshots/1.PNG?raw=true "")
 
 ### Tech
 
