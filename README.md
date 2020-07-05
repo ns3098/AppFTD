@@ -2,18 +2,9 @@
 
 
 
-```sh
-username - ns3098
-```
-```sh
-email - singhshyamkumar430@gmail.com
-```
-
 AppFTD is an application to work with tabular data(without internet connection).
 
-[Watch the Demo video](https://drive.google.com/file/d/14p2ZTi77aZJ5oXXyxJCiYbxyyxLzAqVA/view?usp=sharing)
 
-[Link to download executable file](https://drive.google.com/open?id=11tDjxIRxIGjvAQU37V8hb7LRAhabcHGg)
 # Features!
 
   - Upload xlsx or csv file for each module.
