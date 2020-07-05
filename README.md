@@ -31,7 +31,7 @@ AppFTD is an application to work with tabular data(without internet connection).
   <img src="/Screenshots/3.PNG" width="723" height="467">
 </p>
 <p align="center">
-  <img src="/Screenshots/4.PNG" width="877" height="512">
+  <img src="/Screenshots/4.PNG" width="820" height="512">
 </p>
 <p align="center">
   <img src="/Screenshots/5.PNG" width="1076" height="578">
